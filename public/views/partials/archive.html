@@ -1,0 +1,13 @@
+<div class="archive-container">
+    <h2>Архив от {{vm.section}}</h2>
+
+    <div class="project-from-archive" ng-repeat="archive in vm.archives" class=>
+    	<a href="./uploads/{{archive.fileName}}" title="Свали документа" download>
+            <div class="file-icon"></div>
+        </a>
+        <a href="./uploads/{{archive.fileName}}" title="Свали документа" download><h4>{{archive.title}}</h4></a>
+        <p>
+            {{archive.description}}
+        </p>
+    </div>
+</div>

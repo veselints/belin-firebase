@@ -1,0 +1,483 @@
+/* Overwrite browser styles */
+
+html,
+body,
+div,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #999;
+    cursor: pointer;
+}
+
+h2 {
+    margin: 0 0 2em 0.5em;
+}
+
+/* Clearfix */
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/* Styling header */
+.header-container {
+    position: relative;
+    z-index: 100;
+    background-color: #FFF;
+}
+
+.header {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.name {
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto 1em;
+    font-weight: 100;
+}
+
+/* Styling main-menu */
+.navigation {
+    color: #333;
+    display: inline-block;
+}
+
+.main-menu>li {
+    display: inline-block;
+}
+
+.main-menu .main-link {
+    display: block;
+    padding: 1.5em 2em;
+}
+
+.main-menu .main-link:hover {
+    background-color: #EEE;
+}
+
+.main-menu .main-link.selected {
+    background-color: #EEE;
+}
+
+.main-link .fa-caret-down,
+.main-link .fa-caret-up {
+    margin-left: 0.5em;
+}
+
+/* Styling drop-down menu */
+.menu-dropdown {
+    width: 100%;
+    height: 185px;
+    text-align: center;
+    background-color: #EEE;
+    position: absolute;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 2s;
+    transition-property: top;
+    transition-duration: 1.5s;
+    left: 0;
+    z-index: 1;
+    box-shadow: 0 0 20px 1px rgb(200, 200, 200);
+}
+
+.menu-dropdown.menu-dropdown-small {
+    height: 65px;
+}
+
+.menu-dropdown.hidden-dropdown {
+    top: -130px;
+    z-index: 1;
+}
+
+.menu-dropdown.hidden-dropdown.menu-dropdown-small {
+    top: -10px;
+}
+
+.menu-dropdown.visible-dropdown {
+    top: 59px;
+    z-index: 2;
+}
+
+.menu-dropdown-inner {
+    text-align: left;
+    width: 1240px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.menu-dropdown-column {
+    float: left;
+    padding: 0.5em 15px;
+    width: 280px;
+}
+
+.menu-dropdown-heading {
+    font-weight: 900;
+    font-size: 1.1em;
+    margin: 0.8em 0;
+}
+
+.menu-dropdown-sublist.list-without-heading {
+    margin-top: 44px;
+}
+
+.menu-dropdown-sublist li {
+    padding: 0.25em 0;
+}
+
+.big-icon {
+    font-size: 1em;
+    padding-right: 5px;
+}
+
+/* styling footer */
+.footer {
+    width: 97%;
+    margin: 0 1%;
+}
+
+.footer .footer-text {
+    text-align: right;
+    padding: 15px;
+    margin: 0 1%;
+    border-top: 0.5px solid #DDD;
+    color: #DDD;
+    font-size: 0.8em;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -45px; 
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.footer, 
+.page-wrap:after {
+  height: 45px; 
+}
+
+/* Styling main content */
+.main {
+    position: relative;
+}
+
+/* Styling icons */
+.file-icon, .ppt-icon {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-128.png");
+    margin: 0 0.5em 0 0;
+}
+
+.file-icon:hover, .ppt-icon:hover {
+    opacity: 0.7;
+}
+
+.file-icon {
+    background-image: url("https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-128.png");
+    margin: 0 0.5em 0 0;
+}
+
+.ppt-icon {
+    background-image: url("http://www.file-extensions.org/imgs/app-icon/128/835/microsoft-powerpoint.png");
+    margin: 0 1em 0 0;
+}
+
+/*Styling home / painting page*/
+.home-image,
+.painting-page-image {
+    margin: 3em 0;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home-image {
+    height: 75vh;
+    background-image: url("./images/18_Plovdiv_MainStreet_1.jpg");
+}
+
+.painting-page-image {
+    height: 71vh;
+}
+
+/* Styling About page */
+.about-container {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.about-image {
+    display: inline-block;
+    float: left;
+    height: 240px;
+    width: 240px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://scontent.fsof3-1.fna.fbcdn.net/v/t1.0-9/11129195_1408263709494347_7438884886448841631_n.jpg?oh=4e87bd828617ee4f63ff0ad329aaad03&oe=58A76F20");
+    margin: 0 1em 1em;
+}
+
+.about-text {
+    margin: 1em;
+}
+
+.about-container .about-list,
+.about-container .about-text {
+    line-height: 1.5em;
+}
+
+.about-container .about-list li {
+    padding: 1em 2em 0;
+}
+
+.about-container h4 {
+    margin: 2em 1em 0;
+}
+
+/* Styling major section page */
+.major-section-container {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.section-from {
+    margin: 0 0.5em;
+}
+
+.section-from p {
+    margin-top: 1em;
+}
+
+/* Styling Archive page */
+.archive-container {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.project-from-archive {
+    margin: 0 0.5em;
+}
+
+.project-from-archive h4 {
+    margin: 3em 0 1em;
+}
+
+/* Styling Projects page */
+.projects-container {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.project-thumb {
+    display: inline-block;
+    height: 305px;
+    width: 305px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("http://veldergroup.com/thumb/phpThumb.php?src=../files/data_0/430/Image/pLdS-OUP-POPOVO.png&w=600&h=450");
+    margin: 0.5em;
+    position: relative;
+    border: 1px solid #EEE;
+}
+
+.project-thumb h4 {
+    padding: 2em;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #DDD;
+    position: absolute;
+    bottom: 0;
+}
+
+.project-from-projects {
+    float: left;
+}
+
+.project {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.project p,
+.project h4 {
+    margin: 0 auto 1em;
+    line-height: 1.5em;
+}
+
+.project h4 {
+    margin: 2em auto 1em;
+}
+
+.document {
+    margin: 1.5em 0;
+}
+
+.source {
+    margin-bottom: 1em;
+}
+
+/* Styling Publications page */
+.more-link {
+    float: right;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 1em;
+    color: #666;
+}
+
+/* Styling Photos page */
+.no-photos-message {
+    font-size: 32px;
+    padding-top: 115px;
+}
+
+.main .container {
+    text-align: center;
+    width: 1280px;
+    margin: 30px auto;
+    min-height: 500px;
+}
+
+.main .container .inner-photo-container {
+    padding: 20px;
+    margin: 12px;
+    /* background-color: #EEE; */
+    float: left;
+    cursor: pointer;
+    border: 1px solid #DDD;
+}
+
+.main .container .photo-image {
+    height: 253px;
+    width: 253px;
+}
+
+.main .container .photo-image img {
+  height: auto;
+  width: auto;
+  max-height: 251px;
+  max-width: 251px;
+  margin: auto;
+  display: block;
+}
+
+.main .container h4 {
+    margin: 2px 0 15px;
+}
+
+.main .container p {
+    margin: 5px 0;
+}
+
+.main .container p:last-of-type{
+    margin-bottom: 0;
+}
+
+/* Styling paintings */
+.paintings-container {
+    width: 1280px;
+    margin: 2em auto;
+}
+
+.inner-paintings-container {
+    border: 1px solid #DDD;
+    padding: 30px;
+    margin:50px;
+    cursor: pointer;
+}
+
+.painting-image {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+.painting-image img {
+    height: auto;
+    width: auto;
+    max-height: 498px;
+    max-width: 1198px;
+    margin: auto;
+    display: block;
+}
+
+.main .container h4.painting-name {
+    margin: 5px 0 0 0;
+    font-weight: 900;
+}
+
+/* Styling admin form */
+
+.admin-form-element {
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.admin-form-element input, 
+.admin-form-element select {
+    font-size: 1em;
+}
+
+.admin-form-element label {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.admin-form-element .file-container {
+    display: inline-block;
+}
+
+.admin-form-element select option[disabled] {
+    color: #EEE;
+}

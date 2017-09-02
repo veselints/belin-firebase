@@ -1,0 +1,11 @@
+<div class="projects-container clearfix">
+    <h2>Проекти в областта на {{vm.section}}</h2>
+
+    <div class="project-from-projects" ng-repeat="project in vm.projects">
+        <a href="#/regional/projects/{{project._id}}">
+            <div class="project-thumb" style="background-image: url('./uploads/{{project.fileName}}')">
+                <h4>{{project.title}}</h4>
+            </div>
+        </a>
+    </div>
+</div>

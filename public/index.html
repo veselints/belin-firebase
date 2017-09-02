@@ -1,65 +1,234 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <title>Belin</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/4.3.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/4.3.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/4.3.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/4.3.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/4.3.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body ng-app="belinApp" ng-cloak>
+    <div class="page-wrap">
+        <!-- header -->
+        <header class="header-container">
+            <div class="header">
+                <h1 class="name"><a href="./#/" >Belin Mollov //</a></h1>
+                <nav class="navigation">
+                    <ul class="main-menu">
+                        <li><a class="main-link" title="For me" href="#/about">За мен</a></li>
+                        <li><a class="main-link" title="professional">Професионален път<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                        <li><a class="main-link" title="paintings">Картини<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                        <li><a class="main-link photos" title="photos">Снимки<i class="fa fa-caret-down" aria-hidden="true"></i></a></li>
+                        <li><a class="main-link" title="CUrrent">Актуално</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="menu-dropdown hidden-dropdown professional">
+            <div class="menu-dropdown-inner">
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/main/regional" >Регионално и местно развитие</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/development/archive">Архив (МРРБ 1991 – 2010 г.)</a></li>
+                        <li><a href="#/development/projects">Проекти</a></li>
+                        <li><a href="#/development/publications">Публикации</a></li>
+                        <li><a href="#/development/presentations">Презентации</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/main/planning" >Пространствено планиране</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/planning/archive">Архив (Генплан София 1970 – 1990 г.)</a></li>
+                        <li><a href="#/planning/projects">Проекти</a></li>
+                        <li><a href="#/planning/publications">Публикации</a></li>
+                        <li><a href="#/planning/presentations">Презентации</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/main/community" >Работа със заинтересовани страни</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/community/trainings">Обучения (магистърски програми)</a></li>
+                        <li><a href="#/community/forums">Обществени форуми</a></li>
+                        <li><a href="#/community/publications">Публикации</a></li>
+                        <li><a href="#/community/presentations">Презентации</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/main/regeneration" >Градско възстановяване и развитие</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/regeneration/projects">Проекти (добри практики)</a></li>
+                        <li><a href="#/regeneration/regeneration">Регенерация</a></li>
+                        <li><a href="#/regeneration/publications">Публикации</a></li>
+                        <li><a href="#/regeneration/presentations">Презентации</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu-dropdown hidden-dropdown paintings menu-dropdown-small">
+            <div class="menu-dropdown-inner">
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/paintings/ruse" >
+                    <i class="fa fa-paint-brush big-icon" aria-hidden="true"></i>
+                    Русе
+                </a></h4>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/paintings/monasteries" >
+                    <i class="fa fa-tint big-icon" aria-hidden="true"></i>
+                    Манастири
+              </a></h4>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/paintings/plovdiv" >
+                    <i class="fa fa-pencil big-icon" aria-hidden="true"></i>
+                    Пловдив
+                </a></h4>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="" >
+                    <i class="fa fa-eraser big-icon" aria-hidden="true"></i>
+                    Рисунки
+                </a></h4>
+                </div>
+            </div>
+        </div>
+        <div class="menu-dropdown hidden-dropdown photos">
+            <div class="menu-dropdown-inner">
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="" >От България</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/photos/dunav">Край Дунав</a></li>
+                        <li><a href="#/photos/blacksea">Черно море</a></li>
+                        <li><a href="#/photos/tracia">Тракия</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="" >От България</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/photos/balkan">Балканът</a></li>
+                        <li><a href="#/photos/mountains">Рила, Родопи, Пирин</a></li>
+                        <li><a href="#/photos/swbg">Югозападна България</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="" >Извън България</a></h4>
+                    <ul class="menu-dropdown-sublist">
+                        <li><a href="#/photos/europe">Европа</a></li>
+                        <li><a href="#/photos/asia">Азия</a></li>
+                        <li><a href="#/photos/america">Америка</a></li>
+                        <li><a href="#/photos/africa">Африка</a></li>
+                    </ul>
+                </div>
+                <div class="menu-dropdown-column">
+                    <h4 class="menu-dropdown-heading"><a href="#/photos/collages" >Колажи</a></h4>
+                </div>
+            </div>
+        </div>
+        <!-- Main content -->
+        <main class="main">
+            <div ng-view>
+            </div>
+        </main>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer-text">
+            <a class="link" href="https://github.com/veselints" "Veselin Tsvetanov">&copy; veselints</a>
+        </p>
+    </footer>
+    <!-- Loding jQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- Loding Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.js"></script>
+    <!-- Loding Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
+    <!-- Loading AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
+    <!-- Loading ng-file-upload -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.2.13/ng-file-upload.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.2.13/ng-file-upload-shim.min.js"></script>
+    <!-- Loading app -->
+    <script src="app.js"></script>
+    <!-- Loading services -->
+    <script src="services/data-service.js"></script>
+    <script src="services/admin-options-service.js"></script>
+    <script src="services/users-service.js"></script>
+    <script src="services/content-service.js"></script>
+    <script src="services/paintings-service.js"></script>
+    <script src="services/publications-service.js"></script>
+    <script src="services/archives-service.js"></script>
+    <script src="services/photos-service.js"></script>
+    <script src="services/projects-service.js"></script>
+    <script src="services/presentations-service.js"></script>
+    <!-- Loading directives -->
+    <!-- <script src="directives/upload-directive.js"></script> -->
+    <!-- Loading controllers -->
+    <script src="controllers/home-controller.js"></script>
+    <script src="controllers/admin-controller.js"></script>
+    <script src="controllers/about-controller.js"></script>
+    <script src="controllers/presentations-controller.js"></script>
+    <script src="controllers/publications-controller.js"></script>
+    <script src="controllers/archive-controller.js"></script>
+    <script src="controllers/projects-controller.js"></script>
+    <script src="controllers/main-section-controller.js"></script>
+    <script src="controllers/project-details-controller.js"></script>
+    <script src="controllers/forums-controller.js"></script>
+    <script src="controllers/trainings-controller.js"></script>
+    <script src="controllers/regeneration-controller.js"></script>
+    <script src="controllers/main-section-controller.js"></script>
+    <script src="controllers/photos-controller.js"></script>
+    <script src="controllers/paintings-controller.js"></script>
+    <script src="controllers/painting-controller.js"></script>
+    <script type="text/javascript">
+    $('document').ready(function() {
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyAvymOjJfqbRtqaSR1ZVobRYJEVQa-b2FQ",
+            authDomain: "belin-test.firebaseapp.com",
+            databaseURL: "https://belin-test.firebaseio.com",
+            projectId: "belin-test",
+            storageBucket: "gs://belin-test.appspot.com",
+            messagingSenderId: "413225889145"
+        };
+        firebase.initializeApp(config);
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        $('.main-link').on('click', function(e) {
+            $('.visible-dropdown').removeClass('visible-dropdown').addClass('hidden-dropdown');
+            $('.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+            var link = $(e.target);
+            var downArrow = link.find('.fa');
+            var dropdownName = link.attr('title');
+            var respondingDropdown = $('.' + dropdownName);
+
+            if (link.hasClass('selected')) {
+                if (respondingDropdown.length > 0) {
+                    link.removeClass('selected');
+                }
+            } else {
+                $('.selected').removeClass('selected');
+                link.addClass('selected');
+
+                if (respondingDropdown.length > 0) {
+                    respondingDropdown.removeClass('hidden-dropdown').addClass('visible-dropdown');
+                    downArrow.removeClass('fa-caret-down').addClass('fa-caret-up');
+                }
+            }
+        });
+
+        $('.menu-dropdown-column a').on('click', function(e) {
+            $('.visible-dropdown').removeClass('visible-dropdown').addClass('hidden-dropdown');
+            $('.fa-caret-up').removeClass('fa-caret-up').addClass('fa-caret-down');
+            $('.selected').removeClass('selected');
+        });
+    });
     </script>
-  </body>
+</body>
+
 </html>
