@@ -8,21 +8,16 @@
         regeneration: 'градското възстановяване и развитие'
     };
 
-    function PublictionsController($location, $routeParams, publicationsService) {
+    function PublictionsController($routeParams, $firebaseArray) {
         var vm = this;
         var currentSection = $routeParams.section;
         vm.section = currentSection;
         vm.sectionInBg = params[currentSection];
 
-        publicationsService.getPublicationBySection(currentSection)
-            .then(function(res) {
-                vm.publications = res.data;
-                console.log(vm.publications);
-            }, function(err) {
-                console.log(err);
-            });
+        var publicationsRef = firebase.database().ref('publications/' + currentSection);
+        vm.publications = $firebaseArray(publicationsRef);
     }
 
     angular.module('belinApp.controllers')
-        .controller('PublictionsController', ['$location', '$routeParams', 'publicationsService', PublictionsController]);
+        .controller('PublictionsController', ['$routeParams', '$firebaseArray', PublictionsController]);
 }());

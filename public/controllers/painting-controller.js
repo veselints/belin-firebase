@@ -1,18 +1,15 @@
 (function() {
-  'use strict';
+    'use strict';
 
-  function PaintingController($location, $routeParams, paintingsService) {
-    var vm = this;
-    var region = $routeParams.region.toLowerCase();
-    var id = $routeParams.paintingId;
+    function PaintingController($location, $routeParams, $firebaseObject) {
+        var vm = this;
+        var currentRegion = $routeParams.region.toLowerCase();
+        var id = $routeParams.paintingId;
 
-    vm.region = region;
-    paintingsService.getPaintingById(id)
-      .then(function(res) {
-        vm.painting = res.data;
-      })
-  }
+        var paintingRef = firebase.database().ref('paintings/' + currentRegion + '/' + id);
+        vm.painting = $firebaseObject(paintingRef);
+    }
 
-  angular.module('belinApp.controllers')
-    .controller('PaintingController', ['$location', '$routeParams', 'paintingsService', PaintingController]);
+    angular.module('belinApp.controllers')
+        .controller('PaintingController', ['$location', '$routeParams', '$firebaseObject', PaintingController]);
 }());
