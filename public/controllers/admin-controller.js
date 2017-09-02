@@ -1,24 +1,57 @@
 (function() {
     'use strict'
 
-    function AdminController($firebaseAuth, $firebaseStorage, $firebaseObject, adminOptionsService) {
+    function AdminController($window, $firebaseAuth, $firebaseStorage, $firebaseObject, $firebaseArray, adminOptionsService) {
         var vm = this;
-        vm.showAreas = true;
-        vm.areaOptions = adminOptionsService.paintingsAreaOptions;
-        vm.showDescription = true;
-        vm.showYear = true;
-        vm.showForPublications = false;
-        vm.majorCategory = 'paintings';
-        vm.showFile = true;
-        vm.authenticated = false;
-
         var auth = $firebaseAuth();
+        var firebaseUser = auth.$getAuth();
+
+        angular.extend(vm, {
+            showAreas: true,
+            areaOptions: adminOptionsService.paintingsAreaOptions,
+            showDescription: true,
+            showYear: true,
+            showForPublications: false,
+            majorCategory: 'paintings',
+            showFile: true,
+            authenticated: false,
+            model: {
+                area: 'ruse',
+                title: null,
+                year: null,
+                url: null,
+                date: null,
+                colaborators: null,
+                interviewer: null
+            }
+        });
+
+        if (firebaseUser) {
+            vm.authenticated = true;
+        } else {
+            vm.authenticated = false;
+        }
+
+        vm.indexImages = function() {
+            return;
+
+            var itemsRef = firebase.database().ref('paintings/plovdiv');
+            var itemsList = $firebaseArray(itemsRef);
+
+            itemsList.$loaded()
+                .then(function(list) {
+                    syncIndex(undefined, list);
+                })
+                .catch(function(error) {
+                    console.log("Error:", error);
+                });
+        };
 
         vm.onAuthenticate = function() {
             if (vm.authEmail && vm.authEmail.length > 5 && vm.authPass && vm.authPass.length > 6) {
                 auth.$signInWithEmailAndPassword(vm.authEmail, vm.authPass).then(function(user) {
                     if (user) {
-                        alert(user.email + ' signed in!');
+                        $window.alert(user.email + ' Успешно влязохте в профила си!');
                         vm.authenticated = true;
                     } else {
                         user = {};
@@ -28,31 +61,22 @@
                     console.log("Authentication failed:", error);
                 });
             } else {
-                alert('Use valid Email and Password!');
+                $window.alert('Използвайте валиден Email и парола!');
             }
         }
 
         vm.onSignOut = function() {
             auth.$signOut().then(function() {
-                alert('User signed out!');
+                $window.alert('Успешно излязохте от профила си!');
                 vm.authenticated = false;
             }).catch(function(error) {
-                alert(error.message);
+                $window.alert(error.message);
             });
         }
 
-        vm.model = {
-            area: 'ruse',
-            title: null,
-            year: null,
-            url: null,
-            date: null,
-            colaborators: null,
-            interviewer: null
-        };
-
         vm.updateMajorSelection = function() {
             var selectedCategory = vm.majorCategory;
+
             vm.showDescription = true;
             vm.showYear = true;
             vm.showForPublications = false;
@@ -89,43 +113,80 @@
         }
 
         vm.submit = function() {
-            if (vm.showFile) {
-                if (vm.form.file.$valid && vm.file) {
-                    var path = vm.majorCategory + '/';
-                    if (vm.showAreas) {
-                        path = path + vm.model.area + '/';
+            if (vm.form.$valid) {
+                if (vm.showFile) {
+                    if (vm.form.file.$valid && vm.file && vm.file.type === 'image/jpeg') {
+                        uploadFile();
+                    } else {
+                        $window.alert('Файлът не е валиден!');
                     }
-
-                    var storageRef = firebase.storage().ref(path + vm.file.name);
-                    var storage = $firebaseStorage(storageRef);
-                    var uploadTask = storage.$put(vm.file, { contentType: 'image/jpeg' });
-
-                    uploadTask.$complete(function(snapshot) {
-                        //alert(snapshot.downloadURL);
-
-                        var pathToDbRef = vm.majorCategory + '/';
-                        if (vm.showAreas) {
-                            pathToDbRef = pathToDbRef + vm.model.area + '/';
-                        }
-
-                        pathToDbRef += vm.model.title;
-
-                        var dbRef = firebase.database().ref(pathToDbRef);
-                        var newObject = $firebaseObject(dbRef);
-                        angular.extend(newObject, vm.model);
-                        newObject.url = snapshot.downloadURL;
-
-                        newObject.$save().then(function(ref) {
-                            alert(ref.key);
-                        }, function(error) {
-                            console.log("Error:", error);
-                        });
-                    });
+                } else {
+                    saveNewEntry();
                 }
+            } else {
+                $window.alert("Формата не е попълнена коректно!");
             }
+        }
+
+        function syncIndex(counter, list) {
+            if (counter === undefined) {
+                counter = 0;
+            }
+            if (counter >= list.length) {
+                return;
+            }
+
+            var itemStorageRef = firebase.storage().ref("paintings/plovdiv/" + list[counter].url);
+            var itemStorage = $firebaseStorage(itemStorageRef);
+
+            itemStorage.$getDownloadURL().then(function(url) {
+                console.log(url);
+                list[counter].url = url;
+                list.$save(counter);
+                counter++;
+                syncIndex(counter, list);
+            });
+        }
+
+        function uploadFile() {
+            var path = vm.majorCategory + '/';
+            if (vm.showAreas) {
+                path = path + vm.model.area + '/';
+            }
+
+            var storageRef = firebase.storage().ref(path + vm.file.name);
+            var storage = $firebaseStorage(storageRef);
+            var uploadTask = storage.$put(vm.file, { contentType: 'image/jpeg' });
+
+            uploadTask.$complete(function(snapshot) {
+                saveNewEntry(snapshot)
+            });
+        }
+
+        function saveNewEntry(snapshot) {
+            var pathToDbRef = vm.majorCategory + '/';
+            if (vm.showAreas) {
+                pathToDbRef = pathToDbRef + vm.model.area + '/';
+            }
+
+            pathToDbRef += vm.model.title;
+
+            var dbRef = firebase.database().ref(pathToDbRef);
+            var newObject = $firebaseObject(dbRef);
+            angular.extend(newObject, vm.model);
+
+            if (snapshot) {
+                newObject.url = snapshot.downloadURL;
+            }
+
+            newObject.$save().then(function(ref) {
+                $window.alert("Новият обект е запазен успешно!");
+            }, function(error) {
+                console.log("Error:", error);
+            });
         }
     }
 
     angular.module('belinApp.controllers')
-        .controller('AdminController', ['$firebaseAuth', '$firebaseStorage', '$firebaseObject', 'adminOptionsService', AdminController]);
+        .controller('AdminController', ['$window', '$firebaseAuth', '$firebaseStorage', '$firebaseObject', '$firebaseArray', 'adminOptionsService', AdminController]);
 }());
