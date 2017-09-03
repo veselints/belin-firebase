@@ -1,4 +1,60 @@
 {
+  "archive" : {
+    "development" : {
+      "TestDevelopmentArchive1" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 1,
+        "section" : "development",
+        "title" : "Test Development Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestDevelopmentArchive2" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 2,
+        "section" : "development",
+        "title" : "Test Development Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestDevelopmentArchive3" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 3,
+        "section" : "development",
+        "title" : "Test Development Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    },
+    "planning" : {
+      "TestPlanningArchive" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 1,
+        "section" : "planning",
+        "title" : "Test Planning Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestPlanningArchive2" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 2,
+        "section" : "planning",
+        "title" : "Test Planning Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestPlanningArchive3" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 3,
+        "section" : "planning",
+        "title" : "Test Planning Archive section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    }
+  },
+  "forums" : {
+    "community" : {
+      "testForum" : {
+        "title" : "Test Forum",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+      }
+    }
+  },
   "paintings" : {
     "drawings" : {
       "testDrawings" : {
@@ -542,6 +598,100 @@
       }
     }
   },
+  "presentations" : {
+    "community" : {
+      "TestCommunityPresentation" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 1,
+        "section" : "community",
+        "title" : "Test Community Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestCommunityPresentation2" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 2,
+        "section" : "community",
+        "title" : "Test Community Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestCommunityPresentation3" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 3,
+        "section" : "community",
+        "title" : "Test Community Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    },
+    "development" : {
+      "TestDevelopmentPresentation1" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 1,
+        "section" : "development",
+        "title" : "Test Development Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestDevelopmentPresentation2" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 2,
+        "section" : "development",
+        "title" : "Test Development Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestDevelopmentPresentation3" : {
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "orderId" : 3,
+        "section" : "development",
+        "title" : "Test Development Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    },
+    "planning" : {
+      "TestPlanningPresentation" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 1,
+        "section" : "planning",
+        "title" : "Test Planning Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestPlanningPresentation2" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 2,
+        "section" : "planning",
+        "title" : "Test Planning Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestPlanningPresentation3" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 3,
+        "section" : "planning",
+        "title" : "Test Planning Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    },
+    "regeneration" : {
+      "TestRegenerationPresentation1" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 1,
+        "section" : "regeneration",
+        "title" : "Test Regeneration Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestRegenerationPresentation2" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 2,
+        "section" : "regeneration",
+        "title" : "Test Regeneration Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      },
+      "TestRegenerationPresentation3" : {
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "orderId" : 3,
+        "section" : "regeneration",
+        "title" : "Test Regeneration Presentation section",
+        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+      }
+    }
+  },
   "projects" : {
     "development" : {
       "IpgvrPlovdiv" : {
@@ -589,7 +739,7 @@
   "publications" : {
     "community" : {
       "testCommunity" : {
-        "abstract" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
         "coauthor" : "Test Author",
         "edition" : "в. Строителство градът, 02.05.2010",
         "orderId" : 1,
@@ -600,7 +750,7 @@
     },
     "development" : {
       "DanubeProgramme" : {
-        "abstract" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
         "edition" : "в. Строителство градът, 02.05.2010",
         "orderId" : 4,
         "section" : "development",
@@ -608,7 +758,7 @@
         "url" : "http://gradat.bg/interview/2010/05/02/895663_bez_tehnicheski_obosnovani_proekti_shte_ostanem_samo/"
       },
       "EuFinancingForUrbanInnovation" : {
-        "abstract" : "През май и в началото на юни в публичното пространство се появиха три интересни публикации. На 11 май Институтът за пазарна икономика представи новото си изследване \"Успехите и провалите на българските общини 2011 – 2014\", което се базира на преглед и анализ на одитните доклади на Сметната палата.",
+        "description" : "През май и в началото на юни в публичното пространство се появиха три интересни публикации. На 11 май Институтът за пазарна икономика представи новото си изследване \"Успехите и провалите на българските общини 2011 – 2014\", което се базира на преглед и анализ на одитните доклади на Сметната палата.",
         "edition" : "в. Капитал, 29 юни 2016",
         "orderId" : 10,
         "section" : "development",
@@ -616,7 +766,7 @@
         "url" : "http://www.capital.bg/biznes/konsult/2016/06/29/2786741_evrofinansirane_na_gradski_inovativni_deinosti/"
       },
       "GrowthAndSustainableDevelopmentProgramme" : {
-        "abstract" : "В началото на настоящата годна Министерският съвет на Република България одобри проектите, които ще бъдат финансирани през 2014 г. от публичната инвестиционна програма \"Растеж и устойчиво развитие на регионите\". Това безспорно е една добра инициатива, особено като се има предвид очертаващата се нулева година без действащи нови оперативни програми и съответно без нови договори с потенциалните бенефициенти.",
+        "description" : "В началото на настоящата годна Министерският съвет на Република България одобри проектите, които ще бъдат финансирани през 2014 г. от публичната инвестиционна програма \"Растеж и устойчиво развитие на регионите\". Това безспорно е една добра инициатива, особено като се има предвид очертаващата се нулева година без действащи нови оперативни програми и съответно без нови договори с потенциалните бенефициенти.",
         "coauthor" : "Веселин Цветанов, Петко Маринов",
         "edition" : "в. Строителство градът, 12.05.2014",
         "orderId" : 2,
@@ -625,7 +775,7 @@
         "url" : "http://gradat.bg/news/2014/05/12/2297685_programa_rastej_i_ustoichivo_razvitie_na_regionite_-/"
       },
       "IntegratedPlans" : {
-        "abstract" : "Интегрираният план за градско възстановяване и развитие е \"бизнес план\", програма за интегрирано осъществяване на секторните политики и стратегии на общината съобразено с възможностите на пространственото планиране. Този подход се прилага, за да се постигнат по-ефективни резултати от влагането на различни видове ресурси в обновяването и развитието на градовете.",
+        "description" : "Интегрираният план за градско възстановяване и развитие е \"бизнес план\", програма за интегрирано осъществяване на секторните политики и стратегии на общината съобразено с възможностите на пространственото планиране. Този подход се прилага, за да се постигнат по-ефективни резултати от влагането на различни видове ресурси в обновяването и развитието на градовете.",
         "edition" : "в. Строителство градът, 22.10.2012",
         "orderId" : 3,
         "section" : "development",
@@ -633,7 +783,7 @@
         "url" : "http://gradat.bg/interview/2012/10/22/1930007_v_razrabotvaneto_na_plana_se_stremim_da_mislim_kato/"
       },
       "IntegratedPlansProjects" : {
-        "abstract" : "Интегрираните планове за градско възстановяване и развитие се разработват като изискване от Европейската комисия за по-ефективно усвояване на средствата от структурните фондове на Европейския съюз. Това изискване е във връзка с прилагането на Лайпцигската харта за устойчиви европейски градове, която беше приета на неформална среща на европейските министри, отговарящи за устройството на територията през май 2007 г.",
+        "description" : "Интегрираните планове за градско възстановяване и развитие се разработват като изискване от Европейската комисия за по-ефективно усвояване на средствата от структурните фондове на Европейския съюз. Това изискване е във връзка с прилагането на Лайпцигската харта за устойчиви европейски градове, която беше приета на неформална среща на европейските министри, отговарящи за устройството на територията през май 2007 г.",
         "edition" : "в. Строителство градът, 08.03.2010",
         "orderId" : 5,
         "section" : "development",
@@ -641,7 +791,7 @@
         "url" : "http://gradat.bg/interview/2010/03/08/869505_celta_e_da_se_napraviat_dobri_proekti_garantirashti/"
       },
       "InvestmentProgrammePlovdiv" : {
-        "abstract" : "ОП \"Регионално развитие\" 2007 - 2013 г. и реализираните чрез нея проекти са вече част от историята на град Пловдив. Древният град отново ще може да разчита на Европейския фонд за регионално развитие, достъпен чрез новата ОП \"Региони в растеж\" 2014 - 2020. Средствата за градско обновяване на Пловдив са предварително определени и възлизат на 80 851 031.52 лв. безвъзмездна финансова помощ.",
+        "description" : "ОП \"Регионално развитие\" 2007 - 2013 г. и реализираните чрез нея проекти са вече част от историята на град Пловдив. Древният град отново ще може да разчита на Европейския фонд за регионално развитие, достъпен чрез новата ОП \"Региони в растеж\" 2014 - 2020. Средствата за градско обновяване на Пловдив са предварително определени и възлизат на 80 851 031.52 лв. безвъзмездна финансова помощ.",
         "coauthor" : "урб. Здравко Петров",
         "edition" : "в. Строителство градът, 08.09.2016",
         "orderId" : 1,
@@ -650,7 +800,7 @@
         "url" : "http://gradat.bg/news/2015/11/09/2645611_proekti_za_80_mln_lv_vkljuchva_investicionnata/"
       },
       "LocalDevelopmentPlans" : {
-        "abstract" : "За да усвои предоставяните пари, в оставащите до приемането ни 2 и половина години, България трябва да подготви цялата нормативна база, планове и проекти и да осигури за съфинансиране още толкова пари.",
+        "description" : "За да усвои предоставяните пари, в оставащите до приемането ни 2 и половина години, България трябва да подготви цялата нормативна база, планове и проекти и да осигури за съфинансиране още толкова пари.",
         "edition" : "в. Строителство градът, 26.06.2004",
         "orderId" : 9,
         "section" : "development",
@@ -658,7 +808,7 @@
         "url" : "http://gradat.bg/news/2004/06/26/324846_obshtinite_triabva_da_podgotviat_planove_za_razvitie/"
       },
       "NationalDevelopmentScheme" : {
-        "abstract" : "За хората, които работим в областта на устройство на територията и регионалното развитие, е голяма радост, че най-после се обръща сериозно внимание на нормативно заложена от 2001 г. със Закона за устройство на територията национална комплексна устройствена схема.",
+        "description" : "За хората, които работим в областта на устройство на територията и регионалното развитие, е голяма радост, че най-после се обръща сериозно внимание на нормативно заложена от 2001 г. със Закона за устройство на територията национална комплексна устройствена схема.",
         "edition" : "в. Строителство градът, 05.01.2008",
         "orderId" : 6,
         "section" : "development",
@@ -666,7 +816,7 @@
         "url" : "http://gradat.bg/news/2008/01/05/444762_nacionalnata_ustroistvena_shema_e_superdurjavna_zadacha/"
       },
       "RegionalDevelopmentPolicyInBg" : {
-        "abstract" : "МРРБ е отговорно за провеждане на реформата в регионалното развитие на страната, устройството на територията и изграждането на основните мрежи и съоръжения на техническата инфраструктура. Балансираното, устойчиво развитие на националната територия е жизненоважна предпоставка за повишаване на инвестиционния интерес към България и оттам за постигането на стабилен икономически растеж и международна конкурентоспособност.",
+        "description" : "МРРБ е отговорно за провеждане на реформата в регионалното развитие на страната, устройството на територията и изграждането на основните мрежи и съоръжения на техническата инфраструктура. Балансираното, устойчиво развитие на националната територия е жизненоважна предпоставка за повишаване на инвестиционния интерес към България и оттам за постигането на стабилен икономически растеж и международна конкурентоспособност.",
         "edition" : "в. Строителство градът, 25.10.2004",
         "orderId" : 7,
         "section" : "development",
@@ -674,7 +824,7 @@
         "url" : "http://gradat.bg/news/2004/10/25/325231_prioriteti_na_regionalnata_politika_na_bulgariia_v/"
       },
       "SustainableDevelopmentBg" : {
-        "abstract" : "От 1997 г. насам принципите за устойчиво развитие заемат централно място в Договора на Европейския съюз и държавите, които се стремят да се присъединят към него, трябва да ги приложат към своята цялостна политика и законова уредба.",
+        "description" : "От 1997 г. насам принципите за устойчиво развитие заемат централно място в Договора на Европейския съюз и държавите, които се стремят да се присъединят към него, трябва да ги приложат към своята цялостна политика и законова уредба.",
         "edition" : "в. Строителство градът, 18.09.2004",
         "orderId" : 8,
         "section" : "development",
@@ -684,7 +834,7 @@
     },
     "planning" : {
       "DevelopmentOfPoblicSpace" : {
-        "abstract" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
         "edition" : "в. Строителство градът, 07.07.2014",
         "orderId" : 2,
         "section" : "planning",
@@ -692,7 +842,7 @@
         "url" : "http://gradat.bg/news/2014/07/07/2338464_osnovnite_tematichni_oblasti_za_razvitie_na/"
       },
       "SustainableCities" : {
-        "abstract" : "Санирането на съществуващите сгради и новото зелено строителство не могат да постигнат желания от обществото ефект, ако не се планират и изграждат в общия контекст на интегрираното възстановяване на градската среда",
+        "description" : "Санирането на съществуващите сгради и новото зелено строителство не могат да постигнат желания от обществото ефект, ако не се планират и изграждат в общия контекст на интегрираното възстановяване на градската среда",
         "edition" : "в. Строителство градът, 07.03.2011",
         "orderId" : 4,
         "section" : "planning",
@@ -700,7 +850,7 @@
         "url" : "http://gradat.bg/forumgradat/2011/03/07/1054263_ustoichivite_gradove_generirat_prosperirashti/"
       },
       "UrbanPlanningProjects" : {
-        "abstract" : "Разходете се от Борисовата градина, през Орлов мост, покрай паметника на руската армия. Оттам лесно можете да прескочите към площада на Народното събрание, от него - към Народната библиотека и Докторската градина или в обратната посока - към катедрала \"Свети Александър Невски\", зад Военния клуб или надолу по ул. \"Раковски\" до градинката на \"Кристал\" и после към площад \"Славейков\" и ул. \"Граф Игнатиев\".",
+        "description" : "Разходете се от Борисовата градина, през Орлов мост, покрай паметника на руската армия. Оттам лесно можете да прескочите към площада на Народното събрание, от него - към Народната библиотека и Докторската градина или в обратната посока - към катедрала \"Свети Александър Невски\", зад Военния клуб или надолу по ул. \"Раковски\" до градинката на \"Кристал\" и после към площад \"Славейков\" и ул. \"Граф Игнатиев\".",
         "edition" : "в. Строителство градът, 04.07.2011",
         "orderId" : 3,
         "section" : "planning",
@@ -708,7 +858,7 @@
         "url" : "http://gradat.bg/news/2011/07/04/1117155_gradovete_protiagat_ruce_kum_niakolko_evropeiski/"
       },
       "UrbanPublicSpace" : {
-        "abstract" : "Градските обществени пространства са всички видове отворени пространства за общо ползване в съчетание с облика на обкръжаващите ги сгради. Това са булеварди, улици, площади, паркове, вътрешноквартални пространства, пешеходни зони, зони за спорт и отдих, подземни пространства - подлези, метро, предгарови площади и др.",
+        "description" : "Градските обществени пространства са всички видове отворени пространства за общо ползване в съчетание с облика на обкръжаващите ги сгради. Това са булеварди, улици, площади, паркове, вътрешноквартални пространства, пешеходни зони, зони за спорт и отдих, подземни пространства - подлези, метро, предгарови площади и др.",
         "edition" : "в. Строителство градът, 07.07.2014",
         "orderId" : 1,
         "section" : "planning",
@@ -718,7 +868,7 @@
     },
     "regeneration" : {
       "NewYorkOculus" : {
-        "abstract" : "На 3 март 2016 г. в 15 ч. местно време на \"Кота нула\" в сърцето на Световния търговски център, където преди 11 септември 2001 г. се издигаха кулите близнаци, след 10 години строителство отвори врати Новият транспортен възел (хъб), дело на арх. Сантяго Калатрава.",
+        "description" : "На 3 март 2016 г. в 15 ч. местно време на \"Кота нула\" в сърцето на Световния търговски център, където преди 11 септември 2001 г. се издигаха кулите близнаци, след 10 години строителство отвори врати Новият транспортен възел (хъб), дело на арх. Сантяго Калатрава.",
         "edition" : "сп. Градът, 09.11.2015",
         "orderId" : 2,
         "section" : "regeneration",
@@ -726,7 +876,7 @@
         "url" : "http://infrastructure.bg/show.php?storyid=2823707"
       },
       "TobaccoWarehouses" : {
-        "abstract" : "В Европа и по света съществуват различни подходи за провеждане на урбанистичните политики на национално и местно ниво. Такъв подход е регенерацията (Urban Regeneration; Urban Renewal; градско обновяване) – една комплексна визия за градско възстановяване и развитие, подкрепена с конкретни дейности, насочени към промяна на условията в жизнената среда за постигане на определени икономически и социални цели.",
+        "description" : "В Европа и по света съществуват различни подходи за провеждане на урбанистичните политики на национално и местно ниво. Такъв подход е регенерацията (Urban Regeneration; Urban Renewal; градско обновяване) – една комплексна визия за градско възстановяване и развитие, подкрепена с конкретни дейности, насочени към промяна на условията в жизнената среда за постигане на определени икономически и социални цели.",
         "edition" : "сп. Градът, 10.01.2017",
         "orderId" : 1,
         "section" : "regeneration",
@@ -748,156 +898,6 @@
       "testTraining" : {
         "title" : "Test Training",
         "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
-    }
-  },
-  "forums" : {
-    "community" : {
-      "testForum" : {
-        "title" : "Test Forum",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
-    }
-  },
-  "archive": {
-    "development" : {
-      "TestDevelopmentArchive1" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentArchive2" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 2,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentArchive3" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 3,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "planning" : {
-      "TestPlanningArchive" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningArchive2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningArchive3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    }
-  },
-  "presentations": {
-    "development" : {
-      "TestDevelopmentPresentation1" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentPresentation2" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 2,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentPresentation3" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 3,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "planning" : {
-      "TestPlanningPresentation" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "community" : {
-      "TestCommunityPresentation" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestCommunityPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestCommunityPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "regeneration" : {
-      "TestRegenerationPresentation1" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestRegenerationPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestRegenerationPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
       }
     }
   }

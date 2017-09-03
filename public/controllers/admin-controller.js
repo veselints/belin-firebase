@@ -7,22 +7,27 @@
         var firebaseUser = auth.$getAuth();
 
         angular.extend(vm, {
+            majorCategory: 'paintings',
             showAreas: true,
             areaOptions: adminOptionsService.paintingsAreaOptions,
             showDescription: true,
             showYear: true,
             showForPublications: false,
-            majorCategory: 'paintings',
             showFile: true,
+            allowedFiles: adminOptionsService.allowedFiles.imageJpg,
             authenticated: false,
             model: {
-                area: 'ruse',
-                title: null,
-                year: null,
-                url: null,
-                date: null,
+                abstract: null,
+                section: 'ruse',
                 colaborators: null,
-                interviewer: null
+                date: null,
+                fileName: null,
+                interviewer: null,
+                key: null,
+                orderId: 0,
+                title: null,
+                url: null,
+                year: null
             }
         });
 
@@ -82,43 +87,45 @@
 
             vm.showDescription = true;
             vm.showYear = true;
+            vm.showFile = true;
+            vm.allowedFiles = adminOptionsService.allowedFiles.imageJpg;
             vm.showForPublications = false;
+            vm.showDocuments = false;
 
             if (adminOptionsService.areaCategories.indexOf(selectedCategory) > -1) {
+                var areaOptionsIdentifier = selectedCategory + 'AreaOptions';
                 vm.showAreas = true;
-                vm.showFile = true;
+                vm.areaOptions = adminOptionsService[areaOptionsIdentifier];
 
                 if (selectedCategory === 'photos') {
-                    vm.areaOptions = adminOptionsService.photosAreaOptions;
                     vm.showDescription = false;
-                } else if (selectedCategory === 'paintings') {
-                    vm.areaOptions = adminOptionsService.paintingsAreaOptions;
-                } else if (selectedCategory === 'archives') {
-                    vm.areaOptions = adminOptionsService.archiveAreaOptions;
-                } else if (selectedCategory === 'projects') {
-                    vm.areaOptions = adminOptionsService.projectsAreaOptions;
-                } else {
-                    vm.areaOptions = adminOptionsService.professionalAreaOptions;
-
-                    if (selectedCategory === 'publications') {
-                        vm.showForPublications = true;
-                        vm.showFile = false;
-                    }
+                } else if (selectedCategory === 'publications') {
+                    vm.showForPublications = true;
+                    vm.showFile = false;
+                    vm.showYear = false;
+                } else if (selectedCategory === 'presentations') {
+                    vm.allowedFiles = adminOptionsService.allowedFiles.pdf;
+                }else if (selectedCategory === 'projects') {
+                    vm.showDocuments = true;
                 }
             } else {
-                if (adminOptionsService.noYearCategories.indexOf(selectedCategory) > -1) {
-                    vm.showYear = false;
-                }
-
                 vm.showAreas = false;
-                vm.showFile = false;
+
+                if (selectedCategory === 'blogposts') {
+                    vm.showYear = false;
+                    vm.showFile = false;
+                } else if (selectedCategory === 'archive') {
+                    vm.allowedFiles = adminOptionsService.allowedFiles.imagesAndPdf
+                }
             }
         }
 
         vm.submit = function() {
-            if (vm.form.$valid) {
+            if (vm.form.$valid && keyIsValid()) {
                 if (vm.showFile) {
-                    if (vm.form.file.$valid && vm.file && vm.file.type === 'image/jpeg') {
+                    if (vm.form.file.$valid && 
+                            vm.file && 
+                            vm.allowedFiles.indexOf(vm.file.type) > -1) {
                         uploadFile();
                     } else {
                         $window.alert('Файлът не е валиден!');
@@ -151,6 +158,18 @@
             });
         }
 
+        function keyIsValid() {
+            var key = vm.model.key;
+            var re = /^\w+$/;
+
+            if (!re.test(key)) {
+                $window.alert("Ключът трябва да съдържа само букви, цифри и долно тире!");
+                return false;
+            } else {
+                return true;
+            }
+        }
+
         function uploadFile() {
             var path = vm.majorCategory + '/';
             if (vm.showAreas) {
@@ -162,7 +181,8 @@
             var uploadTask = storage.$put(vm.file, { contentType: 'image/jpeg' });
 
             uploadTask.$complete(function(snapshot) {
-                saveNewEntry(snapshot)
+                vm.model.fileName = vm.file.name;
+                saveNewEntry(snapshot);
             });
         }
 
@@ -172,11 +192,12 @@
                 pathToDbRef = pathToDbRef + vm.model.area + '/';
             }
 
-            pathToDbRef += vm.model.title;
+            pathToDbRef += vm.model.key;
 
             var dbRef = firebase.database().ref(pathToDbRef);
             var newObject = $firebaseObject(dbRef);
             angular.extend(newObject, vm.model);
+            newObject.key = null;
 
             if (snapshot) {
                 newObject.url = snapshot.downloadURL;

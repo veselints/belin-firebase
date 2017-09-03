@@ -11,42 +11,26 @@
             'publications'
         ];
 
-        var noYearCategories = [
-            'blogposts',
-            'publications'
-        ];
-
-        var professionalAreaOptions = [{
-            value: 'community',
-            text: 'Работа със заинтересованите страни'
-        }, {
-            value: 'development',
-            text: 'Регионално и местно развитие'
-        }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
-        }, {
-            value: 'regeneration',
-            text: 'Градско възстановяване и развитие'
-        }];
-
-        var projectsAreaOptions = [{
-            value: 'development',
-            text: 'Регионално и местно развитие'
-        }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
-        }, {
-            value: 'regeneration',
-            text: 'Градско възстановяване и развитие'
-        }];
-
         var archiveAreaOptions = [{
             value: 'development',
             text: 'Регионално и местно развитие'
         }, {
             value: 'planning',
             text: 'Пространствено планиране'
+        }];
+
+        var paintingsAreaOptions = [{
+            value: 'plovdiv',
+            text: 'Пловдив'
+        }, {
+            value: 'monasteries',
+            text: 'Манастири'
+        }, {
+            value: 'ruse',
+            text: 'Русе'
+        }, {
+            value: 'drawings',
+            text: 'Рисунки'
         }];
 
         var photosAreaOptions = [{
@@ -84,25 +68,60 @@
             text: 'Колажи'
         }];
 
-        var paintingsAreaOptions = [{
-            value: 'plovdiv',
-            text: 'Пловдив'
+        var presentationsAreaOptions = [{
+            value: 'community',
+            text: 'Работа със заинтересованите страни'
         }, {
-            value: 'monasteries',
-            text: 'Манастири'
+            value: 'development',
+            text: 'Регионално и местно развитие'
         }, {
-            value: 'ruse',
-            text: 'Русе'
+            value: 'planning',
+            text: 'Пространствено планиране'
+        }, {
+            value: 'regeneration',
+            text: 'Градско възстановяване и развитие'
         }];
+
+        var projectsAreaOptions = [{
+            value: 'development',
+            text: 'Регионално и местно развитие'
+        }, {
+            value: 'planning',
+            text: 'Пространствено планиране'
+        }, {
+            value: 'regeneration',
+            text: 'Градско възстановяване и развитие'
+        }];
+
+        var publicationsAreaOptions = [{
+            value: 'community',
+            text: 'Работа със заинтересованите страни'
+        }, {
+            value: 'development',
+            text: 'Регионално и местно развитие'
+        }, {
+            value: 'planning',
+            text: 'Пространствено планиране'
+        }, {
+            value: 'regeneration',
+            text: 'Градско възстановяване и развитие'
+        }];
+
+        var allowedFiles = {
+            imageJpg: 'image/jpeg',
+            pdf: 'application/pdf',
+            imagesAndPdf: 'image/jpeg,image/png,application/pdf'
+        };
 
         return {
             areaCategories,
-            noYearCategories,
-            professionalAreaOptions,
-            projectsAreaOptions,
             archiveAreaOptions,
+            paintingsAreaOptions,
             photosAreaOptions,
-            paintingsAreaOptions
+            presentationsAreaOptions,
+            projectsAreaOptions,
+            publicationsAreaOptions ,
+            allowedFiles           
         };
     }
 
