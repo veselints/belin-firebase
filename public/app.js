@@ -22,78 +22,95 @@
         controller: 'AdminController',
         controllerAs: CONTROLLER_AS_VM
       })
-
-      // Professional path navigation
-      .when('/community/trainings', {
-        templateUrl: PARTIALS_PREFIX + 'trainings.html',
-        controller: 'TrainingsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-      .when('/community/forums', {
-        templateUrl: PARTIALS_PREFIX + 'forums.html',
-        controller: 'ForumsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-
-      .when('/regeneration/regeneration', {
-        templateUrl: PARTIALS_PREFIX + 'regeneration.html',
-        controller: 'RegenerationController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-
-      .when('/:section/archive', {
-        templateUrl: PARTIALS_PREFIX + 'archive.html',
-        controller: 'ArchiveController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-      .when('/:section/projects/:project', {
-        templateUrl: PARTIALS_PREFIX + 'project.html',
-        controller: 'ProjectDetailsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-      .when('/:section/projects', {
-        templateUrl: PARTIALS_PREFIX + 'projects.html',
-        controller: 'ProjectsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-      .when('/:section/publications', {
-        templateUrl: PARTIALS_PREFIX + 'publications.html',
-        controller: 'PublictionsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-      .when('/:section/presentations', {
-        templateUrl: PARTIALS_PREFIX + 'presentations.html',
-        controller: 'PresentationsController',
-        controllerAs: CONTROLLER_AS_VM
-      })
-
       .when('/main/:section', {
         templateUrl: PARTIALS_PREFIX + 'main-section.html',
         controller: 'MainSectionController',
         controllerAs: CONTROLLER_AS_VM
       })
 
-
-      // Photos navigation
+      // Common controller
+      .when('/archive/:section', {
+        templateUrl: PARTIALS_PREFIX + 'archive.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/community/forums', {
+        templateUrl: PARTIALS_PREFIX + 'forums.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/paintings/:section', {
+        templateUrl: PARTIALS_PREFIX + 'paintings.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
       .when('/photos/:section', {
         templateUrl: PARTIALS_PREFIX + 'photos.html',
-        controller: 'PhotosController',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/presentations/:section', {
+        templateUrl: PARTIALS_PREFIX + 'presentations.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/projects/:section', {
+        templateUrl: PARTIALS_PREFIX + 'projects.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/publications/:section', {
+        templateUrl: PARTIALS_PREFIX + 'publications.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/regeneration/:section', {
+        templateUrl: PARTIALS_PREFIX + 'regeneration.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/trainings/:section', {
+        templateUrl: PARTIALS_PREFIX + 'trainings.html',
+        controller: 'CommonController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/forums/:section', {
+        templateUrl: PARTIALS_PREFIX + 'forums.html',
+        controller: 'CommonController',
         controllerAs: CONTROLLER_AS_VM
       })
 
-
-      // Paintings navigation
-      .when('/paintings/:region/:paintingId', {
-        templateUrl: PARTIALS_PREFIX + 'painting.html',
-        controller: 'PaintingController',
+      // Details navigation
+      .when('/paintings/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'painting-details.html',
+        controller: 'CommonDetailsController',
         controllerAs: CONTROLLER_AS_VM
       })
-      .when('/paintings/:region', {
-        templateUrl: PARTIALS_PREFIX + 'paintings.html',
-        controller: 'PaintingsController',
+      .when('/projects/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'project-details.html',
+        controller: 'CommonDetailsController',
         controllerAs: CONTROLLER_AS_VM
       })
-
+      .when('/photos/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'photo-details.html',
+        controller: 'CommonDetailsController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/trainings/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'training-details.html',
+        controller: 'CommonDetailsController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/regeneration/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'regeneration-details.html',
+        controller: 'CommonDetailsController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/forums/:section/:id', {
+        templateUrl: PARTIALS_PREFIX + 'forum-details.html',
+        controller: 'CommonDetailsController',
+        controllerAs: CONTROLLER_AS_VM
+      })
 
       // Otherwise
       .otherwise({

@@ -1,0 +1,17 @@
+<div class="project">
+    <h2>{{vm.item.title}}</h2>
+    <p>
+        {{vm.item.description}}
+    </p>
+    <h4>
+        Документи:
+    </h4>
+    <div class="documents-from-project" ng-repeat="document in vm.item.documents">
+        <div class="document clearfix">
+            <a href="{{document.url}}" download title="Свали документа">
+                <div class="file-icon"></div>
+                <p>{{document.title}}</p>
+            </a>
+        </div>
+    </div>
+</div>

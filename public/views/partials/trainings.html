@@ -1,3 +1,11 @@
-<h1>
-	Here will be the trainings section
-</h1>
+<div class="projects-container clearfix">
+    <h2>Обучения</h2>
+
+    <div class="project-from-projects" ng-repeat="training in vm.items">
+        <a href="#/trainings/community/{{training.$id}}">
+            <div class="project-thumb" style="background-image: url('{{training.url}}')">
+                <h4>{{training.title}}</h4>
+            </div>
+        </a>
+    </div>
+</div>

@@ -1,10 +1,10 @@
 <div class="archive-container">
-    <h2>Презентации в областта на {{vm.section}}</h2>
-    <div class="project-from-archive" ng-repeat="presentation in vm.presentations">
-        <a href="./uploads/{{presentation.fileName}}" title="Свали презентацията" download>
+    <h2>Презентации в областта на {{vm.sectionInBg}}</h2>
+    <div class="project-from-archive" ng-repeat="presentation in vm.items">
+        <a href="{{presentation.url}}" title="Свали презентацията" download>
             <div class="ppt-icon"></div>
         </a>
-        <a href="./uploads/{{presentation.fileName}}" title="Свали презентацията" download>
+        <a href="{{presentation.url}}" title="Свали презентацията" download>
             <h4>{{presentation.title}}</h4>
         </a>
         <p>

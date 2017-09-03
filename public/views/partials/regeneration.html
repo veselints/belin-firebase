@@ -1,3 +1,11 @@
-<h1>
-	Here will be the regeneration section
-</h1>
+<div class="projects-container clearfix">
+    <h2>Регенерация</h2>
+
+    <div class="project-from-projects" ng-repeat="project in vm.items">
+        <a href="#/regeneration/regeneration/{{project.$id}}">
+            <div class="project-thumb" style="background-image: url('{{project.url}}')">
+                <h4>{{project.title}}</h4>
+            </div>
+        </a>
+    </div>
+</div>

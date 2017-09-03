@@ -33,9 +33,12 @@
         }
 
         vm.indexImages = function() {
-            return;
+            if (!vm.indexingPath) {
+                $window.alert('Не е избран път до снимки за индексиране!');
+                return;
+            }
 
-            var itemsRef = firebase.database().ref('paintings/plovdiv');
+            var itemsRef = firebase.database().ref(vm.indexingPath);
             var itemsList = $firebaseArray(itemsRef);
 
             itemsList.$loaded()
@@ -136,7 +139,7 @@
                 return;
             }
 
-            var itemStorageRef = firebase.storage().ref("paintings/plovdiv/" + list[counter].url);
+            var itemStorageRef = firebase.storage().ref(vm.indexingPath + list[counter].fileName);
             var itemStorage = $firebaseStorage(itemStorageRef);
 
             itemStorage.$getDownloadURL().then(function(url) {
