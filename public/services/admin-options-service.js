@@ -3,7 +3,7 @@
 
     function adminOptionsService() {
         var areaCategories = [
-            'archives',
+            'archive',
             'paintings',
             'photos',
             'presentations',

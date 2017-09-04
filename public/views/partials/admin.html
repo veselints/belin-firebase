@@ -103,10 +103,27 @@
             </div>
             <div ng-show="vm.showDocuments">
                 <div class="admin-form-element">
-                    Here will be the upload documents section
+                    Въвеждане на нов документ към проект
+                </div>
+                <div class="admin-form-element">
+                    <label for="document-key">Въведете ключ (key) за документа</label>
+                    <input type="text" name="document-key" ng-model="vm.currentDocument.key">
+                </div>
+                <div class="admin-form-element">
+                    <label for="document-title">Въведете заглавие на документа</label>
+                    <input type="text" name="document-title" ng-model="vm.currentDocument.title">
+                </div>
+                <label for="document-file">Изберете файл</label>
+                <div class="file-container">
+                    <input type="file" ngf-select ng-model="vm.currentDocument.file" name="document-file" ngf-max-size="5MB" accept="image/jpeg,image/png,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                    <p>Преглед на картинката (в случай на картинка):</p>
+                    <img style="width:100px;" ngf-thumbnail="vm.currentDocument.file" />
+                </div>
+                <div class="admin-form-element">
+                    <input type="button" value="Запази избрания документ" ng-click="vm.saveDocument()">
                 </div>
             </div>
-            <div class="admin-form-element">
+            <div class="admin-form-element" ng-hide="vm.hideSubmit">
                 <input type="submit" value="Запазете информацията" ng-click="vm.submit()">
             </div>
         </form>
