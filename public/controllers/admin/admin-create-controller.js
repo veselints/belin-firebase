@@ -1,12 +1,12 @@
 (function() {
     'use strict'
 
-    function AdminController($window, $firebaseAuth, $firebaseStorage, $firebaseObject, $firebaseArray, adminOptionsService) {
+    function AdminCreateController($window, $location, $firebaseAuth, $firebaseStorage, $firebaseObject, $firebaseArray, adminOptionsService) {
         var vm = this;
         var auth = $firebaseAuth();
         var firebaseUser = auth.$getAuth();
         var paintingsKeysRef = firebase.database().ref('paintingsKeys/');
-        
+
         var initialModel = {
             abstract: null,
             section: 'ruse',
@@ -21,7 +21,6 @@
             year: null,
             documents: {}
         };
-        //var paintingsKeys = $firebaseArray(paintingsKeysRef);
 
         angular.extend(vm, {
             majorCategory: 'paintings',
@@ -32,70 +31,17 @@
             showForPublications: false,
             showFile: true,
             allowedFiles: adminOptionsService.allowedFiles.imageJpg,
-            authenticated: false,
             hideSubmit: false,
-            content: 'create',
-            selectedForEditing: false,
-            showListOfItemsToEdit: false,
             model: initialModel,
             currentDocument: {
                 key: null,
                 title: null,
                 file: null
-            },
-            paintingCategory: {
-                key: null,
-                name: null
             }
         });
 
         if (!firebaseUser) {
             $location.path('/admin/login');
-        }
-
-        vm.indexImages = function() {
-            if (!vm.indexingPath) {
-                $window.alert('Не е избран път до снимки за индексиране!');
-                return;
-            }
-
-            var itemsRef = firebase.database().ref(vm.indexingPath);
-            var itemsList = $firebaseArray(itemsRef);
-
-            itemsList.$loaded()
-                .then(function(list) {
-                    syncIndex(undefined, list);
-                })
-                .catch(function(error) {
-                    console.log("Error:", error);
-                });
-        };
-
-        vm.onAuthenticate = function() {
-            if (vm.authEmail && vm.authEmail.length > 5 && vm.authPass && vm.authPass.length > 6) {
-                auth.$signInWithEmailAndPassword(vm.authEmail, vm.authPass).then(function(user) {
-                    if (user) {
-                        $window.alert(user.email + ' Успешно влязохте в профила си!');
-                        vm.authenticated = true;
-                    } else {
-                        user = {};
-                        vm.authenticated = false;
-                    }
-                }).catch(function(error) {
-                    console.log("Authentication failed:", error);
-                });
-            } else {
-                $window.alert('Използвайте валиден Email и парола!');
-            }
-        }
-
-        vm.onSignOut = function() {
-            auth.$signOut().then(function() {
-                $window.alert('Успешно излязохте от профила си!');
-                vm.authenticated = false;
-            }).catch(function(error) {
-                $window.alert(error.message);
-            });
         }
 
         vm.updateMajorSelection = function() {
@@ -108,6 +54,7 @@
             vm.showForPublications = false;
             vm.showDocuments = false;
             vm.hideSubmit = false;
+            vm.showDocumentsForm = false;
 
             if (adminOptionsService.areaCategories.indexOf(selectedCategory) > -1) {
                 var areaOptionsIdentifier = selectedCategory + 'AreaOptions';
@@ -147,6 +94,14 @@
             }
         }
 
+        vm.addDocumentForm = function() {
+            if (vm.form.$valid) {
+                vm.showDocumentsForm = true;
+            } else {
+                $window.alert("Попълнете данните за проекта преди да добавите документ!");
+            }
+        }
+
         vm.saveDocument = function() {
             if (!keyIsValid(vm.currentDocument.key)) {
                 return;
@@ -181,73 +136,6 @@
             }
         }
 
-        vm.searchItems = function() {
-            var pathToDbRef = vm.majorCategory + '/' + vm.model.section + '/';
-            var dbRef = firebase.database().ref(pathToDbRef);
-            vm.selectedArrayForEdit = $firebaseArray(dbRef);
-            vm.showListOfItemsToEdit = true;
-        }
-
-        vm.editCurrent = function(index) {
-            vm.currentIndex = index;
-            vm.model = vm.selectedArrayForEdit[index];
-            vm.showListOfItemsToEdit = false;
-            vm.selectedForEditing = true;
-        }
-
-        vm.submitUpdate = function() {
-            vm.selectedArrayForEdit.$save(vm.currentIndex).then(function(ref) {
-                vm.model = initialModel;
-                vm.selectedForEditing = false;
-                vm.showListOfItemsToEdit = true;
-                $window.alert("Oбектът беше коригиран успешно!");
-            }, function(error) {
-                console.log("Error:", error);
-            });
-        }
-
-        vm.saveNewPaintingsSection = function() {
-            if (vm.paintingCategory.key &&
-                vm.paintingCategory.key.length > 2 &&
-                vm.paintingCategory.name &&
-                vm.paintingCategory.name.length > 2) {
-
-                var pathToDbRef = 'paintingsKeys/' + vm.paintingCategory.key;
-                var dbRef = firebase.database().ref(pathToDbRef);
-                var newObject = $firebaseObject(dbRef);
-
-                angular.extend(newObject, vm.paintingCategory);
-
-                newObject.$save().then(function(ref) {
-                    $window.alert("Новата секция в Рисунки е запазена успешно!");
-                }, function(error) {
-                    console.log("Error:", error);
-                });
-            } else {
-                $window.alert("Секцията в Рисунки трябва да има ключ и име! Всяко от тези полета трябва да е от поне 3 букви.");
-            }
-        }
-
-        function syncIndex(counter, list) {
-            if (counter === undefined) {
-                counter = 0;
-            }
-            if (counter >= list.length) {
-                return;
-            }
-
-            var itemStorageRef = firebase.storage().ref(vm.indexingPath + list[counter].fileName);
-            var itemStorage = $firebaseStorage(itemStorageRef);
-
-            itemStorage.$getDownloadURL().then(function(url) {
-                console.log(url);
-                list[counter].url = url;
-                list.$save(counter);
-                counter++;
-                syncIndex(counter, list);
-            });
-        }
-
         function keyIsValid(key) {
             var re = /^\w+$/;
 
@@ -262,7 +150,7 @@
         function uploadDocumentFile(path) {
             var storageRef = firebase.storage().ref(path);
             var storage = $firebaseStorage(storageRef);
-            var uploadTask = storage.$put(vm.file);
+            var uploadTask = storage.$put(vm.currentDocument.file);
 
             uploadTask.$complete(function(snapshot) {
                 vm.model.documents[vm.currentDocument.key] = {
@@ -310,5 +198,5 @@
     }
 
     angular.module('belinApp.controllers')
-        .controller('AdminController', ['$window', '$firebaseAuth', '$firebaseStorage', '$firebaseObject', '$firebaseArray', 'adminOptionsService', AdminController]);
+        .controller('AdminCreateController', ['$window', '$location', '$firebaseAuth', '$firebaseStorage', '$firebaseObject', '$firebaseArray', 'adminOptionsService', AdminCreateController]);
 }());

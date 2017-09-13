@@ -17,15 +17,40 @@
         controller: 'AboutController',
         controllerAs: CONTROLLER_AS_VM
       })
-      .when('/admin', {
-        templateUrl: PARTIALS_PREFIX + 'admin.html',
-        controller: 'AdminController',
-        controllerAs: CONTROLLER_AS_VM
-      })
       .when('/main/:section', {
         templateUrl: PARTIALS_PREFIX + 'main-section.html',
         controller: 'MainSectionController',
         controllerAs: CONTROLLER_AS_VM
+      })
+
+      // Admin navigation
+      .when('/admin/login', {
+        templateUrl: PARTIALS_PREFIX + 'admin/login.html',
+        controller: 'AdminLoginController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/admin/create', {
+        templateUrl: PARTIALS_PREFIX + 'admin/create.html',
+        controller: 'AdminCreateController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/admin/update', {
+        templateUrl: PARTIALS_PREFIX + 'admin/update.html',
+        controller: 'AdminUpdateController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/admin/painting-category', {
+        templateUrl: PARTIALS_PREFIX + 'admin/painting-category.html',
+        controller: 'AdminPaintingsController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/admin/indexing', {
+        templateUrl: PARTIALS_PREFIX + 'admin/indexing.html',
+        controller: 'AdminIndexingController',
+        controllerAs: CONTROLLER_AS_VM
+      })
+      .when('/admin', {
+        redirectTo: '/admin/login'
       })
 
       // Common controller

@@ -1,0 +1,92 @@
+<form name="vm.form">
+    <div class="admin-form-element">
+        <label for="major-category">Изберете основна категория</label>
+        <select name="major-category" required ng-model="vm.majorCategory" ng-change="vm.updateMajorSelection()">
+            <option value="archive">Архиви</option>
+            <option disabled value="blogposts">Актуално</option>
+            <option value="forums">Обществени форуми</option>
+            <option value="paintings">Картини</option>
+            <option value="photos">Снимки</option>
+            <option value="presentations">Презентации</option>
+            <option value="projects">Проекти</option>
+            <option value="publications">Публикации</option>
+            <option value="trainings">Обучения</option>
+        </select>
+    </div>
+    <div ng-show="vm.showAreas" class="admin-form-element">
+        <label for="section">Изберете област</label>
+        <select name="section" ng-model="vm.model.section" ng-required="vm.showAreas" ng-change="vm.updateMinorSelection()">
+            <option ng-repeat="option in vm.areaOptions" value="{{option.key}}">{{option.name}}</option>
+        </select>
+    </div>
+    <div class="admin-form-element" ng-show="vm.showSearchButton">
+        <input type="button" value="Намерете обекти" ng-click="vm.searchItems()">
+    </div>
+    <div ng-show="vm.showListOfItemsToEdit" ng-repeat="object in vm.selectedArrayForEdit" class="admin-form-element">
+        <h3>{{object.title}}</h3>
+        <input type="button" value="Коригирайте този обект" ng-click="vm.editCurrent($index)">
+    </div>
+    <div ng-show="vm.selectedForEditing">
+        <div class="admin-form-element">
+            <label for="title">Въведете заглавие</label>
+            <input type="text" name="title" ng-model="vm.model.title" required>
+        </div>
+        <div ng-show="vm.showDescription" class="admin-form-element">
+            <label for="description">Въведете описание</label>
+            <textarea type="text" name="description" ng-model="vm.model.description" ng-required="vm.showDescription" rows="5" cols="50"></textarea>
+        </div>
+        <div ng-show="vm.showYear" class="admin-form-element">
+            <label for="year">Въведете година</label>
+            <input type="number" name="year" min="1940" max="2050" ng-model="vm.model.year" ng-required="vm.showYear">
+        </div>
+        <div ng-show="vm.showForPublications">
+            <div class="admin-form-element">
+                <label for="edition">Въведете издание</label>
+                <input type="text" name="edition" ng-model="vm.model.edition" ng-required="vm.showForPublications">
+            </div>
+            <div class="admin-form-element">
+                <label for="url">Въведете адрес на публикацията</label>
+                <input type="url" name="url" ng-model="vm.model.url" ng-required="vm.showForPublications">
+            </div>
+            <div class="admin-form-element">
+                <label for="date">Въведете дата на публикацията</label>
+                <input type="date" name="date" ng-model="vm.model.date" ng-required="vm.showForPublications">
+            </div>
+            <div class="admin-form-element">
+                <label for="colaborators">Въведете сътрудници (в случай, че е имало)</label>
+                <input type="text" name="colaborators" ng-model="vm.model.colaborators">
+            </div>
+            <div class="admin-form-element">
+                <label for="interviewer">Въведете интервюиращ (в случай, че е имало)</label>
+                <input type="text" name="interviewer" ng-model="vm.model.interviewer">
+            </div>
+        </div>
+    </div>
+    <div class="document-section" ng-show="vm.selectedForEditing && vm.showDocuments">
+        <div class="admin-form-element">
+            <h4>Въвеждане на нов документ към проект</h4>
+        </div>
+        <div class="admin-form-element">
+            <label for="document-key">Въведете ключ (key) за документа</label>
+            <input type="text" name="document-key" ng-model="vm.currentDocument.key">
+        </div>
+        <div class="admin-form-element">
+            <label for="document-title">Въведете заглавие на документа</label>
+            <input type="text" name="document-title" ng-model="vm.currentDocument.title">
+        </div>
+        <div class="admin-form-element">
+            <label for="document-file">Изберете документ</label>
+            <div class="file-container">
+                <input type="file" ngf-select ng-model="vm.currentDocument.file" name="document-file" ngf-max-size="5MB" accept="image/jpeg,image/png,application/pdf,application/vnd.openxmlformats-officedocument.wordprocessingml.document,application/vnd.openxmlformats-officedocument.presentationml.presentation" />
+                <p>Преглед на картинката (в случай на картинка):</p>
+                <img style="width:100px;" ngf-thumbnail="vm.currentDocument.file" />
+            </div>
+        </div>
+        <div class="admin-form-element document-button">
+            <input type="button" value="Запази избрания документ" ng-click="vm.saveDocument()">
+        </div>
+    </div>
+    <div class="admin-form-element" ng-show="vm.showSubmit">
+        <input type="submit" value="Запазете корекциите" ng-click="vm.submitUpdate()">
+    </div>
+</form>

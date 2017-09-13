@@ -12,99 +12,85 @@
         ];
 
         var archiveAreaOptions = [{
-            value: 'development',
-            text: 'Регионално и местно развитие'
+            key: 'development',
+            name: 'Регионално и местно развитие'
         }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
-        }];
-
-        var paintingsAreaOptions = [{
-            value: 'plovdiv',
-            text: 'Пловдив'
-        }, {
-            value: 'monasteries',
-            text: 'Манастири'
-        }, {
-            value: 'ruse',
-            text: 'Русе'
-        }, {
-            value: 'drawings',
-            text: 'Рисунки'
+            key: 'planning',
+            name: 'Пространствено планиране'
         }];
 
         var photosAreaOptions = [{
-            value: 'dunav',
-            text: 'Край Дунав'
+            key: 'dunav',
+            name: 'Край Дунав'
         }, {
-            value: 'blackSea',
-            text: 'Черно море'
+            key: 'blackSea',
+            name: 'Черно море'
         }, {
-            value: 'tracia',
-            text: 'Тракия'
+            key: 'tracia',
+            name: 'Тракия'
         }, {
-            value: 'balkan',
-            text: 'Балканът'
+            key: 'balkan',
+            name: 'Балканът'
         }, {
-            value: 'rilaRodophePirin',
-            text: 'Рила, Родопи, Пирин'
+            key: 'rilaRodophePirin',
+            name: 'Рила, Родопи, Пирин'
         }, {
-            value: 'southWestBg',
-            text: 'Югозападна България'
+            key: 'southWestBg',
+            name: 'Югозападна България'
         }, {
-            value: 'europe',
-            text: 'Европа'
+            key: 'europe',
+            name: 'Европа'
         }, {
-            value: 'asia',
-            text: 'Азия'
+            key: 'asia',
+            name: 'Азия'
         }, {
-            value: 'africa',
-            text: 'Африка'
+            key: 'africa',
+            name: 'Африка'
         }, {
-            value: 'america',
-            text: 'Америка'
+            key: 'america',
+            name: 'Америка'
         }, {
-            value: 'collages',
-            text: 'Колажи'
+            key: 'colages',
+            name: 'Колажи'
         }];
 
         var presentationsAreaOptions = [{
-            value: 'community',
-            text: 'Работа със заинтересованите страни'
+            key: 'community',
+            name: 'Работа със заинтересованите страни'
         }, {
-            value: 'development',
-            text: 'Регионално и местно развитие'
+            key: 'development',
+            name: 'Регионално и местно развитие'
         }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
+            key: 'planning',
+            name: 'Пространствено планиране'
         }, {
-            value: 'regeneration',
-            text: 'Градско възстановяване и развитие'
+            key: 'regeneration',
+            name: 'Градско възстановяване и развитие'
         }];
 
         var projectsAreaOptions = [{
-            value: 'development',
-            text: 'Регионално и местно развитие'
+            key: 'development',
+            name: 'Регионално и местно развитие'
         }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
+            key: 'planning',
+            name: 'Пространствено планиране'
         }, {
-            value: 'regeneration',
-            text: 'Градско възстановяване и развитие'
+            key: 'regeneration',
+            name: 'Градско възстановяване и развитие'
         }];
 
         var publicationsAreaOptions = [{
-            value: 'community',
-            text: 'Работа със заинтересованите страни'
+            key: 'community',
+            name: 'Работа със заинтересованите страни'
         }, {
-            value: 'development',
-            text: 'Регионално и местно развитие'
+            key: 'development',
+            name: 'Регионално и местно развитие'
         }, {
-            value: 'planning',
-            text: 'Пространствено планиране'
+            key: 'planning',
+            name: 'Пространствено планиране'
         }, {
-            value: 'regeneration',
-            text: 'Градско възстановяване и развитие'
+            key: 'regeneration',
+            name: 'Градско възстановяване и развитие'
         }];
 
         var allowedFiles = {
@@ -116,7 +102,6 @@
         return {
             areaCategories,
             archiveAreaOptions,
-            paintingsAreaOptions,
             photosAreaOptions,
             presentationsAreaOptions,
             projectsAreaOptions,

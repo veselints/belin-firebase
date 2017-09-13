@@ -1,904 +1,1690 @@
 {
-  "archive" : {
-    "development" : {
-      "TestDevelopmentArchive1" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentArchive2" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 2,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentArchive3" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 3,
-        "section" : "development",
-        "title" : "Test Development Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "planning" : {
-      "TestPlanningArchive" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningArchive2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningArchive3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "planning",
-        "title" : "Test Planning Archive section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    }
-  },
-  "forums" : {
-    "community" : {
-      "testForum" : {
-        "title" : "Test Forum",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
-    }
-  },
-  "paintings" : {
-    "drawings" : {
-      "testDrawings" : {
-        "title" : "Test Drawings section"
-      }
-    },
-    "monasteries" : {
-      "Bachkovo_1" : {
-        "description" : "Ставропигиален манастир.",
-        "orderId" : 1,
-        "region" : "Monasteries",
-        "title" : "Бачковски манастир „Успение Богородично“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Bachkovo_1.jpg?alt=media&token=cbd8790e-f875-404b-ab2b-32f9e1d7ec17"
-      },
-      "Bachkovo_2" : {
-        "description" : "Ставропигиален манастир.",
-        "orderId" : 2,
-        "region" : "Monasteries",
-        "title" : "Бачковски манастир „Успение Богородично“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Bachkovo_2.jpg?alt=media&token=2157239a-77f4-4bc7-ac36-ecdd3c028911"
-      },
-      "Besarbovski_1" : {
-        "description" : "Русенска епархия",
-        "orderId" : 3,
-        "region" : "Monasteries",
-        "title" : "Басарбовски манастир „Свети Димитър Басарбовски“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Besarbovski_1.jpg?alt=media&token=fa9adc79-a023-4500-959c-14022009d5e0"
-      },
-      "Dragalevski_1" : {
-        "description" : "Софийска епархия, Църквата „Св. Богородица Витошка, построена през 1932 г. от арх. Тодор Златев (1885 – 1977).",
-        "orderId" : 4,
-        "region" : "Monasteries",
-        "title" : "Драгалевски манастир",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dragalevski_1.jpg?alt=media&token=ff834a02-83e4-4262-9824-25629762acba"
-      },
-      "Dryanovo_2" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 5,
-        "region" : "Monasteries",
-        "title" : "Дряновски манастир „Свети Архангел Михаил“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_2.jpg?alt=media&token=40263be0-8240-4585-a172-041d96e92bb0"
-      },
-      "Dryanovo_3" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 6,
-        "region" : "Monasteries",
-        "title" : "Дряновски манастир „Свети Архангел Михаил“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_3.jpg?alt=media&token=6e4c3343-974b-43e2-9b5c-a89673d80b47"
-      },
-      "Dryanovo_4" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 7,
-        "region" : "Monasteries",
-        "title" : "Дряновски манастир „Свети Архангел Михаил“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_4.jpg?alt=media&token=c0153588-fbad-4283-9829-510b1834c9e3"
-      },
-      "EtroPole_1" : {
-        "description" : "Ловчанска епархия",
-        "orderId" : 8,
-        "region" : "Monasteries",
-        "title" : "Етрополски манастир „Света Тройца”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_EtroPole_1.jpg?alt=media&token=ec8b43eb-b1b4-443a-bfb5-3ed413f472db"
-      },
-      "Glojene_1" : {
-        "description" : "Ловчанска епархия",
-        "orderId" : 9,
-        "region" : "Monasteries",
-        "title" : "Гложенски манастир „Свети Георги Победоносец“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_1.jpg?alt=media&token=ab736be1-a8cf-4140-86a2-c2cfd8335436"
-      },
-      "Glojene_2" : {
-        "description" : "Ловчанска епархия",
-        "orderId" : 10,
-        "region" : "Monasteries",
-        "title" : "Гложенски манастир „Свети Георги Победоносец“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_2.jpg?alt=media&token=78dd81e6-d59a-4d66-a3ee-b1ffd3ddd8f5"
-      },
-      "Glojene_3" : {
-        "description" : "Ловчанска епархия",
-        "orderId" : 11,
-        "region" : "Monasteries",
-        "title" : "Гложенски манастир „Свети Георги Победоносец“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_3.jpg?alt=media&token=957cc929-352d-49ae-bf7f-15a21c7a7416"
-      },
-      "Kuklen_1" : {
-        "description" : "Пловдивска епархия",
-        "orderId" : 12,
-        "region" : "Monasteries",
-        "title" : " Кукленски манастир „Свети Безсребреници Козма и Дамян“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Kuklen_1.jpg?alt=media&token=3f5cda80-39b6-4c14-adf1-827942bc393b"
-      },
-      "Lopushanski_1" : {
-        "description" : "Видинска епархия",
-        "orderId" : 13,
-        "region" : "Monasteries",
-        "title" : "Лопушански манастир \"Свети Йоан Предтеча\"",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Lopushanski_1.jpg?alt=media&token=b9ba7b0e-5ed4-4421-9aa4-bc950906a6d2"
-      },
-      "Osogovski_1" : {
-        "description" : "Православен манастир в Македония",
-        "orderId" : 14,
-        "region" : "Monasteries",
-        "title" : "Осоговски манастир „Свети Йоаким Осоговски“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Osogovski_1.jpg?alt=media&token=f7034ad9-7f52-4540-93db-69ece4ccc54a"
-      },
-      "Patriarch_1" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 15,
-        "region" : "Monasteries",
-        "title" : "Патриаршески манастир „Света Троица“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Patriarch_1.jpg?alt=media&token=e29a895a-336e-4660-bf35-1f73544669fa"
-      },
-      "Patriarch_2" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 16,
-        "region" : "Monasteries",
-        "title" : "Патриаршески манастир „Света Троица“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Patriarch_2.jpg?alt=media&token=275b415e-b438-4f74-8455-bc40460009bf"
-      },
-      "Plakovski_1" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 17,
-        "region" : "Monasteries",
-        "title" : "Плаковски манастир „Свети Илия“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Plakovski_1.jpg?alt=media&token=8fea5758-8d86-413e-9b74-c054844ba9ff"
-      },
-      "Plakovski_2" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 18,
-        "region" : "Monasteries",
-        "title" : "Плаковски манастир „Свети Илия“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Plakovski_2.jpg?alt=media&token=bf9e3970-e388-4031-864b-2b1790b035b3"
-      },
-      "Probrajenie_1" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 19,
-        "region" : "Monasteries",
-        "title" : "Преображенски манастир „Св. Преображение Господне“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Probrajenie_1.jpg?alt=media&token=b52134a9-dded-4c44-ae83-b10fd8e6b4c1"
-      },
-      "Probrajenie_2" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 20,
-        "region" : "Monasteries",
-        "title" : "Преображенски манастир „Св. Преображение Господне“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Probrajenie_2.jpg?alt=media&token=0fc7a780-56ff-45f4-a2a7-c95ebe9cdb24"
-      },
-      "Rila_1" : {
-        "description" : "Ставропигиален манастир.",
-        "orderId" : 21,
-        "region" : "Monasteries",
-        "title" : "Рилски манастир „Свети Иван Рилски”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Rila_1.jpg?alt=media&token=1ab17b7a-a1e9-418a-a36f-64ac54374407"
-      },
-      "Rila_2" : {
-        "description" : "Ставропигиален манастир.",
-        "orderId" : 22,
-        "region" : "Monasteries",
-        "title" : "Рилски манастир „Свети Иван Рилски”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Rila_2.jpg?alt=media&token=41a21577-4a09-4fad-930c-1444b0cec706"
-      },
-      "Samokov_1" : {
-        "description" : "Софийска епархия",
-        "orderId" : 23,
-        "region" : "Monasteries",
-        "title" : "Самоковски девически манастир „Покров Богородичен“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Samokov_1.jpg?alt=media&token=94a7d6f9-275a-4338-a4bc-9f78130b9dc8"
-      },
-      "Samokov_2" : {
-        "description" : "Софийска епархия",
-        "orderId" : 24,
-        "region" : "Monasteries",
-        "title" : "Самоковският девически манастир „Покров Богородичен“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Samokov_2.jpg?alt=media&token=4f979e72-5322-45a7-918c-c649698a3c33"
-      },
-      "Sokolski_2" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 25,
-        "region" : "Monasteries",
-        "title" : "Габровски Соколски манастир „Успение Богородично“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Sokolski_2.jpg?alt=media&token=da23a993-d701-4d60-bbfd-65323fd533ab"
-      },
-      "Sokolski_3" : {
-        "description" : "Великотърновска епархия",
-        "orderId" : 26,
-        "region" : "Monasteries",
-        "title" : "Габровски Соколски манастир „Успение Богородично“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Sokolski_3.jpg?alt=media&token=9a3f2139-2f20-4df3-b63b-5a929945c1c1"
-      }
-    },
-    "plovdiv" : {
-      "Alafrangite_1" : {
-        "description" : "„Алaфрангите” – по калдъръмените улички на стария град.",
-        "orderId" : 3,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Алaфрангите”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F3_Plovdiv_Alafrangite_1.jpg?alt=media&token=bf2f6ddf-bc96-4c05-b638-ace2cb753608"
-      },
-      "Alafrangite_2" : {
-        "description" : "Хотел „Алафрангите” във възрожденска къща от 1865 г.",
-        "orderId" : 4,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, хотел „Алафрангите”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F4_Plovdiv_Alafrangite_2.jpg?alt=media&token=5e519d60-2628-4387-8490-9df12a3746b2"
-      },
-      "Alafrangite_3" : {
-        "description" : "„Алaфрангите” – по калдъръмените улички на стария град.",
-        "orderId" : 5,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Алaфрангите”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F5_Plovdiv_Alafrangite_3.jpg?alt=media&token=901a9702-b111-497b-90bd-8471bda05f5b"
-      },
-      "Alafrangite_4" : {
-        "description" : "„Алaфрангите” – по калдъръмените улички на стария град.",
-        "orderId" : 6,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Алaфрангите”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F6_Plovdiv_Alafrangite_4.jpg?alt=media&token=b90fc896-6bfd-4742-b7d6-970edb9dfaac"
-      },
-      "Alafrangite_5" : {
-        "description" : "„Алaфрангите” – по калдъръмените улички на стария град.",
-        "orderId" : 7,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Алaфрангите”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F7_Plovdiv_Alafrangite_5.jpg?alt=media&token=2546e55e-7afc-4564-92e8-75471e8c4990"
-      },
-      "AntichenTeatar_1" : {
-        "description" : "„Античният театър на Филипополис” е сред най-добре запазените антични театри в света. Построен е през втори век по време на римския император Марк Улпий Троян (53-117г.). След 3 века е опожарен при нападение на града. Въпреки това, театърът е запазен в първоначалния си архитектурен план. Той е частично възстановен, с около 3500 места.",
-        "orderId" : 2,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Античният театър на Филипополис”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F2_Plovdiv_AntichenTeatar_1.jpg?alt=media&token=fd5a54c5-058a-4840-b74b-68cc21b07a8f"
-      },
-      "CirilMetodii_1" : {
-        "description" : "Храм \"Св. св. Кирил и Методий\" изграден в периода 1882 – 1884 г. по проект и под ръководството на арх. Йосиф Шнитер.",
-        "orderId" : 15,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Храм \"Св. св. Кирил и Методий\"",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F15_Plovdiv_CirilMetodii_1.jpg?alt=media&token=af4bffdd-b369-4d73-ade8-f7b8170ee56c"
-      },
-      "Djumayata_1" : {
-        "description" : "Вляво Пловдивската популярна банка (1923, арх. Юрдан ЮРДАНОВ и Димитър КОЕВ), Вдясно Джумая джамия (XIV век), издигната на мястото на църквата “Св. Петка”.",
-        "orderId" : 1,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, „Джумаята”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F1_Plovdiv_Djumayata_1.jpg?alt=media&token=bf8b0567-0f09-4cc2-97ff-489616958ab8"
-      },
-      "EtnoMuseum_1" : {
-        "description" : "Куюмджиева къща (Етнографски музей) - една от най-забележителните възрожденски къщи, запазили се в нашите земи, дом на пловдивския търговец Аргир Куюмджиоглу, построена е през 1847г. Построена е през 1847 година. Площта й е около 570 квадратни метра, има 4 етажа с 12 големи стаи, 2 салона и около 130 прозореца. Тя е връх в пловдивската възрожденска архитектура.",
-        "orderId" : 8,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Куюмджиева къща (Етнографски музей)",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F8_Plovdiv_EtnoMuseum_1.jpg?alt=media&token=194e34bf-ce9b-437b-a4c4-23ad6a86f899"
-      },
-      "Exelsior_1" : {
-        "description" : "Търговски център „Екселсиор” (1906 – 1911) по проект за кино на арх. А. Ставрев. При реконструкцията на арх. Едвард Христов е разкрита част от античния римски стадион, която е реставрирана и съхранена.",
-        "orderId" : 16,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Търговски център „Екселсиор”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F16_Plovdiv_Exelsior_1.jpg?alt=media&token=6ccbb681-9008-4632-8a58-715688a86eaa"
-      },
-      "FlowersBuilding_1" : {
-        "description" : "Сградата на цветята на площад „Джумаята”",
-        "orderId" : 17,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Сградата на цветята",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F17_Plovdiv_FlowersBuilding_1.jpg?alt=media&token=57acf187-5110-4e9b-8358-875d46401324"
-      },
-      "HisarKapia_1" : {
-        "description" : "Хисар Капия - порта през старинните крепостни стени на Филипопол датира от 11-13 век, но основите са от римско време.",
-        "orderId" : 9,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Хисар Капия",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F9_Plovdiv_HisarKapia_1.jpg?alt=media&token=46f5517d-5518-43ec-b415-53d076c171a2"
-      },
-      "HisarKapia_2" : {
-        "description" : "Хисар Капия - порта през старинните крепостни стени на Филипопол датира от 11-13 век, но основите са от римско време.",
-        "orderId" : 10,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Хисар Капия",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F10_Plovdiv_HisarKapia_2.jpg?alt=media&token=7de9ed55-a480-4909-8e89-a26d05681f31"
-      },
-      "MainStreet_1" : {
-        "description" : "Хотел „Молле” (1910) – На 1 януари 1912г. с бляскаво новогодишно тържество на ул.Княз Александър”39, отваря вратите си хотел „Молле”. В книгата за спомени тук са се разписали първото самостоятелно парно отопление в града, първият генератор за електричество, първият пловдивски асансьор. Постройката е изградена от италианския архитект Марио Пернигони, проектирал още ректората на Пловдивски университет, днешната семинария и централна гара.",
-        "orderId" : 18,
-        "region" : "Plovdiv",
-        "title" : "Пловдив – Хотел „Молле”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F18_Plovdiv_MainStreet_1.jpg?alt=media&token=8a51b40f-0b8c-4a62-9705-ba15fe176943"
-      },
-      "Museum_1" : {
-        "description" : "Областно събрание на Източна Румелия построено 1885 г. по проект на италианския архитект Пиетро Монтани. Днес исторически музей. Притежава над 60 000 експоната.",
-        "orderId" : 13,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Областно събрание на Източна Румелия",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F13_Plovdiv_Museum_1.jpg?alt=media&token=05da1c1f-15cd-4163-bbd8-0d479dbc42c0"
-      },
-      "Obshtina_1" : {
-        "description" : "Сградата на общината е проектирана от арх. Никола Нешов и е построена в периода 1912-1914г. за нуждите на Окръжната администрация. През 20-те години на XX-ти век сградата е дадена за нуждите на областното полицейско управление. В края на 50-те години в сградата се нанасят службите на Община Пловдив.",
-        "orderId" : 14,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Сградата на общината",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F14_Plovdiv_Obshtina_1.jpg?alt=media&token=07cfb240-00e0-43ce-a347-c70427fb3119"
-      },
-      "TheOldTown_1" : {
-        "description" : "Включен е в Списъка на 100-те национални туристически обекта. Намира се в стария град на Тригълмието и включва паметници от различни епохи.",
-        "orderId" : 11,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Архитектурно-историческият резерват \"Старинен Пловдив\".",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F11_Plovdiv_TheOldTown_1.jpg?alt=media&token=8d4dcf52-b79d-4a2e-b133-23f158e99290"
-      },
-      "TheOldTown_2" : {
-        "description" : "Включен е в Списъка на 100-те национални туристически обекта. Намира се в стария град на Тригълмието и включва паметници от различни епохи.",
-        "orderId" : 12,
-        "region" : "Plovdiv",
-        "title" : "Пловдив, Архитектурно-историческият резерват \"Старинен Пловдив\".",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F12_Plovdiv_TheOldTown_2.jpg?alt=media&token=9378da0f-45fc-499b-8900-7182c806cf0e"
-      }
-    },
-    "ruse" : {
-      "Alexandrovska_1" : {
-        "description" : "Жилищно-търговската сграда на братя Папаманоли, построена през 1897 г. по проект на арх. Едвин Пиетрицки. Следва банката на Бурови , сторена 1912 г. по проект на арх. Янович.",
-        "orderId" : 1,
-        "region" : "Ruse",
-        "title" : "Русе, ансамбъл по централната улица „Александровска”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Alexandrovska_1.jpg?alt=media&token=0be1ec85-05bf-4a70-b17d-197ceb5cd948"
-      },
-      "Alexandrovska_2" : {
-        "description" : "Жилищно-търговската сграда на братя Папаманоли, построена през 1897 г. по проект на арх. Едвин Пиетрицки. Следва банката на Бурови , сторена 1912 г. по проект на арх. Янович.",
-        "orderId" : 2,
-        "region" : "Ruse",
-        "title" : "Русе, ансамбъл по централната улица „Александровска”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Alexandrovska_2.jpg?alt=media&token=57855dd4-30de-42c5-b94a-e506c490ce8a"
-      },
-      "Batemberg_1" : {
-        "description" : "Сградата на бившето Окръжното управление e построена през 1882 – 1892 г. от арх. Фридрих Грюнангер. Първоначалният замисъл е сградата да се използва като резиденция на княз Александър I Батенберг, затова и до днес се нарича Дворецът Батенберг. Днес в тази сграда се помещава Регионалният исторически музей.",
-        "orderId" : 3,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на бившето Окръжното управление",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Batemberg_1.jpg?alt=media&token=54c97a43-467b-4918-97a1-856ab828fdbd"
-      },
-      "Bulgaria_1" : {
-        "description" : "Сградата на Застрахователно дружество „България“ е построена през 1891 г. по  проект на Едуард Винтер е Фреските в интериора са от 1901 година на италианския художник Медеа Джовани Пигор.",
-        "orderId" : 4,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на Застрахователно дружество „България“ ",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Bulgaria_1.jpg?alt=media&token=378da46b-0e05-4893-a8fc-8e9150b3be7f"
-      },
-      "ByalaBridge_1" : {
-        "description" : "Беленският мост е построен от Колю Фичето и се смята за постижение на българското възрожденско инженерно-строително и архитектурно изкуство. Работата по него започва през 1865 г. и завършва през 1867 г. Построен е по заповед на Мидхат паша.",
-        "orderId" : 5,
-        "region" : "Ruse",
-        "title" : "Беленският мост",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_ByalaBridge_1.jpg?alt=media&token=061734ed-2448-4f78-9af7-d44918b4d672"
-      },
-      "CommercialBank_1" : {
-        "description" : "Сградата на бившата Кредитно-търговска популярна банка, построена през 1910-11 г. от инж. Геро Геров. Ул. „Хр. Г. Данов” №2.",
-        "orderId" : 6,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на бившата Кредитно-търговска популярна банка",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialBank_1.jpg?alt=media&token=fcd39fb3-9bcb-48ef-9c7d-025494232bd1"
-      },
-      "CommercialCamera_1" : {
-        "description" : "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
-        "orderId" : 7,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на Търговско-индустриалната камара",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_1.jpg?alt=media&token=22c83cea-c5f4-4084-b16d-737347231e9c"
-      },
-      "CommercialCamera_2" : {
-        "description" : "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
-        "orderId" : 8,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на Търговско-индустриалната камара",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_2.jpg?alt=media&token=7fde07f6-9998-49bd-a900-83bc51257f71"
-      },
-      "CommercialCamera_3" : {
-        "description" : "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
-        "orderId" : 9,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на Търговско-индустриалната камара",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_3.jpg?alt=media&token=6b5aca89-7b08-4d9d-a113-88740acac64f"
-      },
-      "DohodnoZora_1" : {
-        "description" : "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
-        "orderId" : 13,
-        "region" : "Ruse",
-        "title" : "Русе, Доходното здание и читалище „Зора”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_DohodnoZora_1.jpg?alt=media&token=a1de3f1f-2da1-47da-893a-0a6b697c94ee"
-      },
-      "Dohodno_1" : {
-        "description" : "Доходното здание и достолепната сграда на бившият хотел „Тетевен”, построен през 1897 г. от италианския арх. Нино Росети за дом на фабриканта Андре Тюрийо.",
-        "orderId" : 10,
-        "region" : "Ruse",
-        "title" : "Русе, Доходното здание и достолепната сграда на бившият хотел „Тетевен”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_1.jpg?alt=media&token=ac004a9a-5397-4c7b-89dd-325dbcbf6033"
-      },
-      "Dohodno_2" : {
-        "description" : "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
-        "orderId" : 11,
-        "region" : "Ruse",
-        "title" : "Русе, Доходното здание",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_2.jpg?alt=media&token=48db75ff-f60c-42df-b5f2-fea8d0414262"
-      },
-      "Dohodno_4" : {
-        "description" : "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
-        "orderId" : 12,
-        "region" : "Ruse",
-        "title" : "Русе, Доходното здание",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_4.jpg?alt=media&token=3b623144-77c7-4d19-8372-05147ca799c5"
-      },
-      "Girdap_1" : {
-        "description" : "Сградата на Акционерно дружество „Гирдап“, което е първата частна банка в България, основана през 1881 г. Сградата е построена през 1896 г. по проект на архитектите Стоян Золотов и Удо Рибау. Понастоящем сградата се използва от Сметната палата.",
-        "orderId" : 14,
-        "region" : "Ruse",
-        "title" : "Русе, Сградата на Акционерно дружество „Гирдап“",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Girdap_1.jpg?alt=media&token=224597f6-ab48-4a76-ab24-e680e732ced1"
-      },
-      "LaButica_1" : {
-        "description" : "„Ла Бутика” - търговската къща на Елиезар Канети, дядо на нобеловия лауреат за литература Елиас Канети, строена през 1898г.",
-        "orderId" : 15,
-        "region" : "Ruse",
-        "title" : "Русе, „Ла Бутика”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_LaButica_1.jpg?alt=media&token=69df5b6a-d294-4d56-9f05-98f828d4480b"
-      },
-      "MusicSchool_1" : {
-        "description" : "Сградата построена през 1900-1901 г. от Протестантската общественост в България е дело на арх. Удо Рибау и инж. Тодор Тонев.",
-        "orderId" : 16,
-        "region" : "Ruse",
-        "title" : "Русе, Старото музикално училище",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_MusicSchool_1.jpg?alt=media&token=d6ba3cdb-d54a-49a2-993e-c78809fd317e"
-      },
-      "SimeonovHouse_1" : {
-        "description" : "Къщата на банкера Иван Симеонов, построена през 1895 г. от арх. Нигохос Бедросян. Сега в нея се помещава Католическата никополска епархия.",
-        "orderId" : 17,
-        "region" : "Ruse",
-        "title" : "Русе, Къщата на банкера Иван Симеонов",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_SimeonovHouse_1.jpg?alt=media&token=8699178e-d1f9-4fa6-99ef-b18dd110e688"
-      },
-      "Svoboda_1" : {
-        "description" : "Площад „Свобода” - Градската градина, Паметникът на Свободата и Доходното здание 1898/1902 на арх. Петер Паул Бранг (1852/1925).",
-        "orderId" : 18,
-        "region" : "Ruse",
-        "title" : "Русе, Площад „Свобода”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Svoboda_1.jpg?alt=media&token=022daca2-7c2f-4d1e-8d57-4e5baadf6d49"
-      },
-      "Svoboda_2" : {
-        "description" : "Площад „Свобода” - Градската градина, Паметникът на Свободата и Доходното здание 1898/1902 на арх. Петер Паул Бранг (1852/1925).",
-        "orderId" : 19,
-        "region" : "Ruse",
-        "title" : "Русе, Площад „Свобода”",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Svoboda_2.jpg?alt=media&token=2ee0f581-5223-4c18-aec2-f26cb27d4c1f"
-      },
-      "Turio_1" : {
-        "description" : "Къщата на Андре Тюрийо или „Виенската къща“, както я нарекли русенци, е най-красивата къща в Русе, завършена през 1900 г. по проект на арх. Едвин Пиетрицки.",
-        "orderId" : 20,
-        "region" : "Ruse",
-        "title" : "Русе, Къщата на Андре Тюрийо",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Turio_1.jpg?alt=media&token=1b0966d0-ed12-4055-910c-2aa1fc664397"
-      }
-    }
-  },
-  "photos" : {
-    "africa" : {
-      "testAfrica" : {
-        "name" : "Test Africa"
-      }
-    },
-    "america" : {
-      "testAmerica" : {
-        "name" : "Test America"
-      }
-    },
-    "asia" : {
-      "testAsia" : {
-        "name" : "Test Asia"
-      }
-    },
-    "balkan" : {
-      "testBalkan" : {
-        "name" : "Test Balkan section"
-      }
-    },
-    "blacksea" : {
-      "testBlackSea" : {
-        "name" : "Test Black sea section"
-      }
-    },
-    "colages" : {
-      "MiraFlowers" : {
-        "fileName" : "MiraFlowers.jpg",
-        "name" : "Mira with flowers",
-        "orderId" : 2,
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FMiraFlowers.jpg?alt=media&token=a8d64b49-2e7f-4c1c-8d61-314d205c1516",
-        "year" : "2016"
-      },
-      "MiraWindow" : {
-        "fileName" : "MiraWindow.jpg",
-        "name" : "Mira on a flower window",
-        "orderId" : 3,
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FMiraWindow.jpg?alt=media&token=39be7641-15ba-4a3b-8b5c-6271e521589c",
-        "year" : "2016"
-      },
-      "SvetlinCars" : {
-        "fileName" : "SvetlinCars.jpg",
-        "name" : "Svetlin and car",
-        "orderId" : 1,
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FSvetlinCars.jpg?alt=media&token=26372f4b-621f-4d20-9050-20f0fe07a194",
-        "year" : "2016"
-      },
-      "SvetlinHourses" : {
-        "fileName" : "SvetlinHourses.jpg",
-        "name" : "Svetlin with hourses",
-        "orderId" : 4,
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FSvetlinHourses.jpg?alt=media&token=371abb85-8a45-4d5c-bbb9-971661c884d5",
-        "year" : "2016"
-      }
-    },
-    "danube" : {
-      "testDanube" : {
-        "name" : "Test Danube section"
-      }
-    },
-    "europe" : {
-      "testEurope" : {
-        "name" : "Test Europe"
-      }
-    },
-    "mountains" : {
-      "testMountains" : {
-        "name" : "Test Mountains section"
-      }
-    },
-    "southwestbg" : {
-      "testSouthWestBg" : {
-        "name" : "Test South-West BG"
-      }
-    },
-    "tracia" : {
-      "testTracia" : {
-        "name" : "Test tracia section"
-      }
-    }
-  },
-  "presentations" : {
-    "community" : {
-      "TestCommunityPresentation" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestCommunityPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestCommunityPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "community",
-        "title" : "Test Community Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "development" : {
-      "TestDevelopmentPresentation1" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentPresentation2" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 2,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestDevelopmentPresentation3" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "orderId" : 3,
-        "section" : "development",
-        "title" : "Test Development Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "planning" : {
-      "TestPlanningPresentation" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestPlanningPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "planning",
-        "title" : "Test Planning Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    },
-    "regeneration" : {
-      "TestRegenerationPresentation1" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 1,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestRegenerationPresentation2" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 2,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      },
-      "TestRegenerationPresentation3" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "orderId" : 3,
-        "section" : "regeneration",
-        "title" : "Test Regeneration Presentation section",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-      }
-    }
-  },
-  "projects" : {
-    "development" : {
-      "IpgvrPlovdiv" : {
-        "description" : "ИПГВР на Пловдив е разглеждан като връзка между системата за социално-икономическо планиране и тази за устройствено планиране. Планът съвместява в себе си характерните особености на стратегическото планиране и териториалното устройство, като представлява специфичен инструмент, съдържащ едновременно устройствени планове и финансови програми. По отношение на съгласуваността, в контекста на отсъствие на национална политика за градско възстановяване и развитие, ИПГВР на гр. Пловдив се съобразява основно с предвижданията и идеите, заложени в пакета от планови документи на общината.",
-        "documents" : {
-          "Discussions" : {
-            "fileName" : "ForumDiscussions.pdf",
-            "title" : "Обобщение на общественото обсъждане",
-            "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
-          },
-          "FinalProject" : {
-            "fileName" : "IpgvrPlovdiv.pdf",
-            "title" : "Окончателен проект",
-            "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FIpgvrPlovdiv.pdf?alt=media&token=9df40965-6849-49a6-8e6c-61f4dfdae361"
-          }
+    "archive":
+    {
+        "development":
+        {
+            "TestDevelopmentArchive1":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 1,
+                "section": "development",
+                "title": "Test Development Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestDevelopmentArchive2":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 2,
+                "section": "development",
+                "title": "Test Development Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestDevelopmentArchive3":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 3,
+                "section": "development",
+                "title": "Test Development Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
         },
-        "fileName" : "IpgvrPlovdiv.jpg",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Интегриран план за градско възстановяване и развитие на град Пловдив",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
+        "planning":
+        {
+            "TestPlanningArchive":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 1,
+                "section": "planning",
+                "title": "Test Planning Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestPlanningArchive2":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 2,
+                "section": "planning",
+                "title": "Test Planning Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestPlanningArchive3":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 3,
+                "section": "planning",
+                "title": "Test Planning Archive section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
+        }
     },
-    "planning" : {
-      "testPlanningProjects" : {
-        "description" : "ИПГВР на Пловдив е разглеждан като връзка между системата за социално-икономическо планиране и тази за устройствено планиране. Планът съвместява в себе си характерните особености на стратегическото планиране и териториалното устройство, като представлява специфичен инструмент, съдържащ едновременно устройствени планове и финансови програми. По отношение на съгласуваността, в контекста на отсъствие на национална политика за градско възстановяване и развитие, ИПГВР на гр. Пловдив се съобразява основно с предвижданията и идеите, заложени в пакета от планови документи на общината.",
-        "fileName" : "TestPlanning.jpg",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Test Planning Project",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
+    "forums":
+    {
+        "community":
+        {
+            "testForum":
+            {
+                "description": "Е това вече трябва да работи, неговата кожа",
+                "fileName": "20170208_113252.jpg",
+                "orderId": 0,
+                "section": "community",
+                "title": "Опит отново",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/forums%2Fcommunity%2F20170208_113252.jpg?alt=media&token=3d4c174f-a5e9-4714-a067-de4595748e5c",
+                "year": 2017
+            }
+        }
     },
-    "regeneration" : {
-      "testRegeneration" : {
-        "description" : "Test this description of the project Regeneration. Blaqqhghfasjhf jhsfgas jhgf asjhgf asjh",
-        "fileName" : "TestRegeneration.jpg",
-        "orderId1" : 1,
-        "section" : "regeneration",
-        "title" : "Test Regeneratin project",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
+    "paintings":
+    {
+        "sofia":
+        {
+            "1 ANevski_1995":
+            {
+                "fileName": "1 ANevski_1995.jpg",
+                "title": "1 ANevski_1995"
+            },
+            "10 Baniata_2000":
+            {
+                "fileName": "10 Baniata_2000.jpg",
+                "title": "10 Baniata_2000"
+            },
+            "100 Sociologia":
+            {
+                "fileName": "100 Sociologia.jpg",
+                "title": "100 Sociologia"
+            },
+            "101 Yablanski":
+            {
+                "fileName": "101 Yablanski.jpg",
+                "title": "101 Yablanski"
+            },
+            "102 Ruski klub":
+            {
+                "fileName": "102 Ruski klub.jpg",
+                "title": "102 Ruski klub"
+            },
+            "103 Borovec":
+            {
+                "fileName": "103 Borovec.jpg",
+                "title": "103 Borovec"
+            },
+            "104 Denkooglu":
+            {
+                "fileName": "104 Denkooglu.jpg",
+                "title": "104 Denkooglu"
+            },
+            "11 Baniata_2011":
+            {
+                "fileName": "11 Baniata_2011.jpg",
+                "title": "11 Baniata_2011"
+            },
+            "12 Boyanskata cherkva_1997":
+            {
+                "fileName": "12 Boyanskata cherkva_1997.jpg",
+                "title": "12 Boyanskata cherkva_1997"
+            },
+            "13 Tsar Osvoboditel_1997":
+            {
+                "fileName": "13 Tsar Osvoboditel_1997.jpg",
+                "title": "13 Tsar Osvoboditel_1997"
+            },
+            "14 Muzey na chujdestrannoto izkustvo_1997":
+            {
+                "fileName": "14 Muzey na chujdestrannoto izkustvo_1997.jpg",
+                "title": "14 Muzey na chujdestrannoto izkustvo_1997"
+            },
+            "15 Muzey na chujdestrannoto izkustvo_2016":
+            {
+                "fileName": "15 Muzey na chujdestrannoto izkustvo_2016.jpg",
+                "title": "15 Muzey na chujdestrannoto izkustvo_2016"
+            },
+            "16 Dvorec_1997":
+            {
+                "fileName": "16 Dvorec_1997.jpg",
+                "title": "16 Dvorec_1997"
+            },
+            "17 Dvorec_2002":
+            {
+                "fileName": "17 Dvorec_2002.jpg",
+                "title": "17 Dvorec_2002"
+            },
+            "18 Dvorec_2016":
+            {
+                "fileName": "18 Dvorec_2016.jpg",
+                "title": "18 Dvorec_2016"
+            },
+            "19 Batemberg_2002":
+            {
+                "fileName": "19 Batemberg_2002.jpg",
+                "title": "19 Batemberg_2002"
+            },
+            "2 ANevski_1995":
+            {
+                "fileName": "2 ANevski_1995.jpg",
+                "title": "2 ANevski_1995"
+            },
+            "20 Halite_1999":
+            {
+                "fileName": "20 Halite_1999.jpg",
+                "title": "20 Halite_1999"
+            },
+            "21 Halite_2000":
+            {
+                "fileName": "21 Halite_2000.jpg",
+                "title": "21 Halite_2000"
+            },
+            "22 Hud":
+            {
+                "fileName": "22 Hud.jpg",
+                "title": "22 Hud"
+            },
+            "23 Hud academia_2000":
+            {
+                "fileName": "23 Hud. academia_2000.jpg",
+                "title": "23 Hud. academia_2000"
+            },
+            "24 Levski pametnik_1997":
+            {
+                "fileName": "24 Levski pametnik_1997.jpg",
+                "title": "24 Levski pametnik_1997"
+            },
+            "25 Ministerstvo na zemedelieto_2001":
+            {
+                "fileName": "25 Ministerstvo na zemedelieto_2001.jpg",
+                "title": "25 Ministerstvo na zemedelieto_2001"
+            },
+            "26 Orlov most_1995":
+            {
+                "fileName": "26 Orlov most_1995.jpg",
+                "title": "26 Orlov most_1995"
+            },
+            "27 Orlov most_1997":
+            {
+                "fileName": "27 Orlov most_1997.jpg",
+                "title": "27 Orlov most_1997"
+            },
+            "28 RusChurch_1995":
+            {
+                "fileName": "28 RusChurch_1995.jpg",
+                "title": "28 RusChurch_1995"
+            },
+            "29 RusChurch_1996":
+            {
+                "fileName": "29 RusChurch_1996.jpg",
+                "title": "29 RusChurch_1996"
+            },
+            "3 ANevski_1997":
+            {
+                "fileName": "3 ANevski_1997.jpg",
+                "title": "3 ANevski_1997"
+            },
+            "30 RusChurch_2002":
+            {
+                "fileName": "30 RusChurch_2002.jpg",
+                "title": "30 RusChurch_2002"
+            },
+            "31 RusChurch_2016":
+            {
+                "fileName": "31 RusChurch_2016.jpg",
+                "title": "31 RusChurch_2016"
+            },
+            "32 SAB_2016":
+            {
+                "fileName": "32 SAB_2016.jpg",
+                "title": "32 SAB_2016"
+            },
+            "33 Sedmochislenici_1999":
+            {
+                "fileName": "33 Sedmochislenici_1999.jpg",
+                "title": "33 Sedmochislenici_1999"
+            },
+            "34 Sedmochislenici_2016":
+            {
+                "fileName": "34 Sedmochislenici_2016.jpg",
+                "title": "34 Sedmochislenici_2016"
+            },
+            "35 Sinagogata_1995":
+            {
+                "fileName": "35 Sinagogata_1995.jpg",
+                "title": "35 Sinagogata_1995"
+            },
+            "36 Sinod_1997":
+            {
+                "fileName": "36 Sinod_1997.jpg",
+                "title": "36 Sinod_1997"
+            },
+            "36 Sinod_2002":
+            {
+                "fileName": "36 Sinod_2002.jpg",
+                "title": "36 Sinod_2002"
+            },
+            "37 SvSofia_1997":
+            {
+                "fileName": "37 Sv. Sofia_1997.jpg",
+                "title": "37 Sv. Sofia_1997"
+            },
+            "38 SvNedelia_1999":
+            {
+                "fileName": "38 Sv.Nedelia_1999.jpg",
+                "title": "38 Sv.Nedelia_1999"
+            },
+            "39 SvNedelia_2000":
+            {
+                "fileName": "39 Sv.Nedelia_2000.jpg",
+                "title": "39 Sv.Nedelia_2000"
+            },
+            "4 ANevski_1998":
+            {
+                "fileName": "4 ANevski_1998.jpg",
+                "title": "4 ANevski_1998"
+            },
+            "40 SvNedelia_2002":
+            {
+                "fileName": "40 Sv.Nedelia_2002.jpg",
+                "title": "40 Sv.Nedelia_2002"
+            },
+            "41 Teatara_1995":
+            {
+                "fileName": "41 Teatara_1995.jpg",
+                "title": "41 Teatara_1995"
+            },
+            "42 Teatara_1997":
+            {
+                "fileName": "42 Teatara_1997.jpg",
+                "title": "42 Teatara_1997"
+            },
+            "43 Teatara_1999":
+            {
+                "fileName": "43 Teatara_1999.jpg",
+                "title": "43 Teatara_1999"
+            },
+            "44 Theatre_2016":
+            {
+                "fileName": "44 Theatre_2016.jpg",
+                "title": "44 Theatre_2016"
+            },
+            "45 University_1997":
+            {
+                "fileName": "45 University_1997.jpg",
+                "title": "45 University_1997"
+            },
+            "46 Univercity_2002":
+            {
+                "fileName": "46 Univercity_2002.jpg",
+                "title": "46 Univercity_2002"
+            },
+            "47 Universiry 2002":
+            {
+                "fileName": "47 Universiry 2002.jpg",
+                "title": "47 Universiry 2002"
+            },
+            "48 Universiry 2016":
+            {
+                "fileName": "48 Universiry 2016.jpg",
+                "title": "48 Universiry 2016"
+            },
+            "49 Voenniat klub_2006":
+            {
+                "fileName": "49 Voenniat klub_2006.jpg",
+                "title": "49 Voenniat klub_2006"
+            },
+            "5 ANevski_2002":
+            {
+                "fileName": "5 ANevski_2002.jpg",
+                "title": "5 ANevski_2002"
+            },
+            "50 Alabin_2016":
+            {
+                "fileName": "50 Alabin_2016.jpg",
+                "title": "50 Alabin_2016"
+            },
+            "51 Alabin_1997":
+            {
+                "fileName": "51 Alabin_1997.jpg",
+                "title": "51 Alabin_1997"
+            },
+            "51a Alabin Farhi_2008":
+            {
+                "fileName": "51a Alabin Farhi_2008.jpg",
+                "title": "51a Alabin Farhi_2008"
+            },
+            "52 Bul":
+            {
+                "fileName": "52 Bul.jpg",
+                "title": "52 Bul"
+            },
+            "53 BulTsarOsvoboditel_2016":
+            {
+                "fileName": "53 Bul. Tsar Osvoboditel_2016.jpg",
+                "title": "53 Bul. Tsar Osvoboditel_2016"
+            },
+            "54 BulTsarOsvoboditel_DZI_1997":
+            {
+                "fileName": "54 Bul. Tsar Osvoboditel_DZI_1997.jpg",
+                "title": "54 Bul. Tsar Osvoboditel_DZI_1997"
+            },
+            "55 BulTsarOsvoboditel_DZI_2015":
+            {
+                "fileName": "55 Bul. Tsar Osvoboditel_DZI_2015.jpg",
+                "title": "55 Bul. Tsar Osvoboditel_DZI_2015"
+            },
+            "56 Hotel Bulg_2006":
+            {
+                "fileName": "56 Hotel Bulg_2006.jpg",
+                "title": "56 Hotel Bulg_2006"
+            },
+            "57 Hotel Bulg_2008":
+            {
+                "fileName": "57 Hotel Bulg_2008.jpg",
+                "title": "57 Hotel Bulg_2008"
+            },
+            "57a plBatemlerg_20016":
+            {
+                "fileName": "57a pl. Batemlerg_20016.jpg",
+                "title": "57a pl. Batemlerg_20016"
+            },
+            "58 Vecheren siluet_2016":
+            {
+                "fileName": "58 Vecheren siluet_2016.jpg",
+                "title": "58 Vecheren siluet_2016"
+            },
+            "59 Graf Ignatiev_1997":
+            {
+                "fileName": "59 Graf Ignatiev_1997.jpg",
+                "title": "59 Graf Ignatiev_1997"
+            },
+            "6 ANevski_2016":
+            {
+                "fileName": "6 ANevski_2016.jpg",
+                "title": "6 ANevski_2016"
+            },
+            "60 Graf Ignatiev_2000":
+            {
+                "fileName": "60 Graf Ignatiev_2000.jpg",
+                "title": "60 Graf Ignatiev_2000"
+            },
+            "61 Garibaldi_1998":
+            {
+                "fileName": "61 Garibaldi_1998.jpg",
+                "title": "61 Garibaldi_1998"
+            },
+            "61 Garibaldi_2000":
+            {
+                "fileName": "61 Garibaldi_2000.jpg",
+                "title": "61 Garibaldi_2000"
+            },
+            "62 Slaveykov_2000":
+            {
+                "fileName": "62 Slaveykov_2000.jpg",
+                "title": "62 Slaveykov_2000"
+            },
+            "63 B&S Slaveikovi_2000":
+            {
+                "fileName": "63 B&S Slaveikovi_2000.jpg",
+                "title": "63 B&S Slaveikovi_2000"
+            },
+            "64 Balabanovata kashta_2013":
+            {
+                "fileName": "64 Balabanovata kashta_2013.jpg",
+                "title": "64 Balabanovata kashta_2013"
+            },
+            "65 Hotel Imperial_2000":
+            {
+                "fileName": "65 Hotel Imperial_2000.jpg",
+                "title": "65 Hotel Imperial_2000"
+            },
+            "66 Fingov_2000":
+            {
+                "fileName": "66 Fingov_2000.jpg",
+                "title": "66 Fingov_2000"
+            },
+            "67 SSA_2000":
+            {
+                "fileName": "67 SSA_2000.jpg",
+                "title": "67 SSA_2000"
+            },
+            "68 NIPK Dondukov_2017":
+            {
+                "fileName": "68 NIPK Dondukov_2017.jpg",
+                "title": "68 NIPK Dondukov_2017"
+            },
+            "69 Dondukov_Koroniasanata kashta_2016":
+            {
+                "fileName": "69 Dondukov_Koroniasanata kashta_2016.jpg",
+                "title": "69 Dondukov_Koroniasanata kashta_2016"
+            },
+            "7 ANevski_2016":
+            {
+                "fileName": "7 ANevski_2016.jpg",
+                "title": "7 ANevski_2016"
+            },
+            "70 ul Budapeshta_2005":
+            {
+                "fileName": "70 ul. Budapeshta_2005.jpg",
+                "title": "70 ul. Budapeshta_2005"
+            },
+            "71 ul Moskovska_1999":
+            {
+                "fileName": "71 ul. Moskovska_1999.jpg",
+                "title": "71 ul. Moskovska_1999"
+            },
+            "72 DSK Moskovska_2016":
+            {
+                "fileName": "72 DSK Moskovska_2016.jpg",
+                "title": "72 DSK Moskovska_2016"
+            },
+            "73 Pirotska_2000":
+            {
+                "fileName": "73 Pirotska_2000.jpg",
+                "title": "73 Pirotska_2000"
+            },
+            "74 SvNikola_2000":
+            {
+                "fileName": "74 SvNikola_2000.jpg",
+                "title": "74 SvNikola_2000"
+            },
+            "75 Parushevi_2016":
+            {
+                "fileName": "75 Parushevi_2016.jpg",
+                "title": "75 Parushevi_2016"
+            },
+            "76 Kashtata s yagodite_2005":
+            {
+                "fileName": "76 Kashtata s yagodite_2005.jpg",
+                "title": "76 Kashtata s yagodite_2005"
+            },
+            "77 Kyshta":
+            {
+                "fileName": "77 Kyshta.jpg",
+                "title": "77 Kyshta"
+            },
+            "78 Geskov":
+            {
+                "fileName": "78 Geskov.jpg",
+                "title": "78 Geskov"
+            },
+            "79 Maria luiza":
+            {
+                "fileName": "79 Maria luiza.jpg",
+                "title": "79 Maria luiza"
+            },
+            "8 ANevski_2017":
+            {
+                "fileName": "8 ANevski_2017.jpg",
+                "title": "8 ANevski_2017"
+            },
+            "80 Sv Paraskeva":
+            {
+                "fileName": "80 Sv. Paraskeva.jpg",
+                "title": "80 Sv. Paraskeva"
+            },
+            "81 Min na transporta":
+            {
+                "fileName": "81 Min. na transporta.jpg",
+                "title": "81 Min. na transporta"
+            },
+            "82 Rotondata":
+            {
+                "fileName": "82 Rotondata.jpg",
+                "title": "82 Rotondata"
+            },
+            "83 NDK":
+            {
+                "fileName": "83 NDK.jpg",
+                "title": "83 NDK"
+            },
+            "84 Vranya":
+            {
+                "fileName": "84 Vranya.jpg",
+                "title": "84 Vranya"
+            },
+            "85 Dragalevski manastir":
+            {
+                "fileName": "85 Dragalevski manastir.jpg",
+                "title": "85 Dragalevski manastir"
+            },
+            "86 Bankya":
+            {
+                "fileName": "86 Bankya.jpg",
+                "title": "86 Bankya"
+            },
+            "89 Akademia_2000":
+            {
+                "fileName": "89 Akademia_2000.jpg",
+                "title": "89 Akademia_2000"
+            },
+            "9 Baniata_1995":
+            {
+                "fileName": "9 Baniata_1995.jpg",
+                "title": "9 Baniata_1995"
+            },
+            "90 NarSabranie_2001":
+            {
+                "fileName": "90 NarSabranie_2001.jpg",
+                "title": "90 NarSabranie_2001"
+            },
+            "91 NeznainiaVoin":
+            {
+                "fileName": "91 NeznainiaVoin.jpg",
+                "title": "91 NeznainiaVoin"
+            },
+            "92 Gendovich_2007":
+            {
+                "fileName": "92 Gendovich_2007.jpg",
+                "title": "92 Gendovich_2007"
+            },
+            "93 MRRB":
+            {
+                "fileName": "93 MRRB.jpg",
+                "title": "93 MRRB"
+            },
+            "94 Biblioteka":
+            {
+                "fileName": "94 Biblioteka.jpg",
+                "title": "94 Biblioteka"
+            },
+            "95 BanTsarOsvoboditel":
+            {
+                "fileName": "95 BanTsarOsvoboditel.jpg",
+                "title": "95 BanTsarOsvoboditel"
+            },
+            "98 zidari":
+            {
+                "fileName": "98 zidari.jpg",
+                "title": "98 zidari"
+            },
+            "99 SSA":
+            {
+                "fileName": "99 SSA.jpg",
+                "title": "99 SSA"
+            }
+        },
+        "drawings":
+        {
+            "Sofia_Alabin_zima_2015":
+            {
+                "description": "Зимна разходка по ул. \"Алабин\"",
+                "fileName": "1 януари.jpg",
+                "orderId": 0,
+                "section": "drawings",
+                "title": "София, ул. \"Алабин\", зима",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fdrawings%2F1%20%D1%8F%D0%BD%D1%83%D0%B0%D1%80%D0%B8.jpg?alt=media&token=3d4bcdae-68a7-4080-a521-8a19dde32ae7",
+                "year": 2015
+            },
+            "testDrawings":
+            {
+                "title": "Test Drawings section"
+            },
+            "testPainting":
+            {
+                "description": "Това е една тестова рисунка :)",
+                "fileName": "20170208_113308.jpg",
+                "orderId": 0,
+                "section": "drawings",
+                "title": "Това е тест",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fdrawings%2F20170208_113308.jpg?alt=media&token=d41e1413-86ad-4819-a05f-0d867929f7cc",
+                "year": 1987
+            }
+        },
+        "monasteries":
+        {
+            "Bachkovo_1":
+            {
+                "description": "Ставропигиален манастир.",
+                "orderId": 1,
+                "section": "monasteries",
+                "title": "Бачковски манастир „Успение Богородично“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Bachkovo_1.jpg?alt=media&token=cbd8790e-f875-404b-ab2b-32f9e1d7ec17"
+            },
+            "Bachkovo_2":
+            {
+                "description": "Ставропигиален манастир.",
+                "orderId": 2,
+                "section": "monasteries",
+                "title": "Бачковски манастир „Успение Богородично“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Bachkovo_2.jpg?alt=media&token=2157239a-77f4-4bc7-ac36-ecdd3c028911"
+            },
+            "Besarbovski_1":
+            {
+                "description": "Русенска епархия",
+                "orderId": 3,
+                "section": "monasteries",
+                "title": "Басарбовски манастир „Свети Димитър Басарбовски“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Besarbovski_1.jpg?alt=media&token=fa9adc79-a023-4500-959c-14022009d5e0"
+            },
+            "Dragalevski_1":
+            {
+                "description": "Софийска епархия, Църквата „Св. Богородица Витошка, построена през 1932 г. от арх. Тодор Златев (1885 – 1977).",
+                "orderId": 4,
+                "section": "monasteries",
+                "title": "Драгалевски манастир",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dragalevski_1.jpg?alt=media&token=ff834a02-83e4-4262-9824-25629762acba"
+            },
+            "Dryanovo_2":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 5,
+                "section": "monasteries",
+                "title": "Дряновски манастир „Свети Архангел Михаил“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_2.jpg?alt=media&token=40263be0-8240-4585-a172-041d96e92bb0"
+            },
+            "Dryanovo_3":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 6,
+                "section": "monasteries",
+                "title": "Дряновски манастир „Свети Архангел Михаил“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_3.jpg?alt=media&token=6e4c3343-974b-43e2-9b5c-a89673d80b47"
+            },
+            "Dryanovo_4":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 7,
+                "section": "monasteries",
+                "title": "Дряновски манастир „Свети Архангел Михаил“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Dryanovo_4.jpg?alt=media&token=c0153588-fbad-4283-9829-510b1834c9e3"
+            },
+            "EtroPole_1":
+            {
+                "description": "Ловчанска епархия",
+                "orderId": 8,
+                "section": "monasteries",
+                "title": "Етрополски манастир „Света Тройца”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_EtroPole_1.jpg?alt=media&token=ec8b43eb-b1b4-443a-bfb5-3ed413f472db"
+            },
+            "Glojene_1":
+            {
+                "description": "Ловчанска епархия",
+                "orderId": 9,
+                "section": "monasteries",
+                "title": "Гложенски манастир „Свети Георги Победоносец“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_1.jpg?alt=media&token=ab736be1-a8cf-4140-86a2-c2cfd8335436"
+            },
+            "Glojene_2":
+            {
+                "description": "Ловчанска епархия",
+                "orderId": 10,
+                "section": "monasteries",
+                "title": "Гложенски манастир „Свети Георги Победоносец“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_2.jpg?alt=media&token=78dd81e6-d59a-4d66-a3ee-b1ffd3ddd8f5"
+            },
+            "Glojene_3":
+            {
+                "description": "Ловчанска епархия",
+                "orderId": 11,
+                "section": "monasteries",
+                "title": "Гложенски манастир „Свети Георги Победоносец“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Glojene_3.jpg?alt=media&token=957cc929-352d-49ae-bf7f-15a21c7a7416"
+            },
+            "Kuklen_1":
+            {
+                "description": "Пловдивска епархия",
+                "orderId": 12,
+                "section": "monasteries",
+                "title": " Кукленски манастир „Свети Безсребреници Козма и Дамян“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Kuklen_1.jpg?alt=media&token=3f5cda80-39b6-4c14-adf1-827942bc393b"
+            },
+            "Lopushanski_1":
+            {
+                "description": "Видинска епархия",
+                "orderId": 13,
+                "section": "monasteries",
+                "title": "Лопушански манастир \"Свети Йоан Предтеча\"",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Lopushanski_1.jpg?alt=media&token=b9ba7b0e-5ed4-4421-9aa4-bc950906a6d2"
+            },
+            "Osogovski_1":
+            {
+                "description": "Православен манастир в Македония",
+                "orderId": 14,
+                "section": "monasteries",
+                "title": "Осоговски манастир „Свети Йоаким Осоговски“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Osogovski_1.jpg?alt=media&token=f7034ad9-7f52-4540-93db-69ece4ccc54a"
+            },
+            "Patriarch_1":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 15,
+                "section": "monasteries",
+                "title": "Патриаршески манастир „Света Троица“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Patriarch_1.jpg?alt=media&token=e29a895a-336e-4660-bf35-1f73544669fa"
+            },
+            "Patriarch_2":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 16,
+                "section": "monasteries",
+                "title": "Патриаршески манастир „Света Троица“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Patriarch_2.jpg?alt=media&token=275b415e-b438-4f74-8455-bc40460009bf"
+            },
+            "Plakovski_1":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 17,
+                "section": "monasteries",
+                "title": "Плаковски манастир „Свети Илия“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Plakovski_1.jpg?alt=media&token=8fea5758-8d86-413e-9b74-c054844ba9ff"
+            },
+            "Plakovski_2":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 18,
+                "section": "monasteries",
+                "title": "Плаковски манастир „Свети Илия“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Plakovski_2.jpg?alt=media&token=bf9e3970-e388-4031-864b-2b1790b035b3"
+            },
+            "Probrajenie_1":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 19,
+                "section": "monasteries",
+                "title": "Преображенски манастир „Св. Преображение Господне“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Probrajenie_1.jpg?alt=media&token=b52134a9-dded-4c44-ae83-b10fd8e6b4c1"
+            },
+            "Probrajenie_2":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 20,
+                "section": "monasteries",
+                "title": "Преображенски манастир „Св. Преображение Господне“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Probrajenie_2.jpg?alt=media&token=0fc7a780-56ff-45f4-a2a7-c95ebe9cdb24"
+            },
+            "Rila_1":
+            {
+                "description": "Ставропигиален манастир.",
+                "orderId": 21,
+                "section": "monasteries",
+                "title": "Рилски манастир „Свети Иван Рилски”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Rila_1.jpg?alt=media&token=1ab17b7a-a1e9-418a-a36f-64ac54374407"
+            },
+            "Rila_2":
+            {
+                "description": "Ставропигиален манастир.",
+                "orderId": 22,
+                "section": "monasteries",
+                "title": "Рилски манастир „Свети Иван Рилски”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Rila_2.jpg?alt=media&token=41a21577-4a09-4fad-930c-1444b0cec706"
+            },
+            "Samokov_1":
+            {
+                "description": "Софийска епархия",
+                "orderId": 23,
+                "section": "monasteries",
+                "title": "Самоковски девически манастир „Покров Богородичен“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Samokov_1.jpg?alt=media&token=94a7d6f9-275a-4338-a4bc-9f78130b9dc8"
+            },
+            "Samokov_2":
+            {
+                "description": "Софийска епархия",
+                "orderId": 24,
+                "section": "monasteries",
+                "title": "Самоковският девически манастир „Покров Богородичен“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Samokov_2.jpg?alt=media&token=4f979e72-5322-45a7-918c-c649698a3c33"
+            },
+            "Sokolski_2":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 25,
+                "section": "monasteries",
+                "title": "Габровски Соколски манастир „Успение Богородично“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Sokolski_2.jpg?alt=media&token=da23a993-d701-4d60-bbfd-65323fd533ab"
+            },
+            "Sokolski_3":
+            {
+                "description": "Великотърновска епархия",
+                "orderId": 26,
+                "section": "monasteries",
+                "title": "Габровски Соколски манастир „Успение Богородично“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fmonasteries%2FMonastery_Sokolski_3.jpg?alt=media&token=9a3f2139-2f20-4df3-b63b-5a929945c1c1"
+            }
+        },
+        "plovdiv":
+        {
+            "Alafrangite_1":
+            {
+                "description": "„Алaфрангите” – по калдъръмените улички на стария град.",
+                "orderId": 3,
+                "section": "plovdiv",
+                "title": "Пловдив, „Алaфрангите”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F3_Plovdiv_Alafrangite_1.jpg?alt=media&token=bf2f6ddf-bc96-4c05-b638-ace2cb753608"
+            },
+            "Alafrangite_2":
+            {
+                "description": "Хотел „Алафрангите” във възрожденска къща от 1865 г.",
+                "orderId": 4,
+                "section": "plovdiv",
+                "title": "Пловдив, хотел „Алафрангите”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F4_Plovdiv_Alafrangite_2.jpg?alt=media&token=5e519d60-2628-4387-8490-9df12a3746b2"
+            },
+            "Alafrangite_3":
+            {
+                "description": "„Алaфрангите” – по калдъръмените улички на стария град.",
+                "orderId": 5,
+                "section": "plovdiv",
+                "title": "Пловдив, „Алaфрангите”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F5_Plovdiv_Alafrangite_3.jpg?alt=media&token=901a9702-b111-497b-90bd-8471bda05f5b"
+            },
+            "Alafrangite_4":
+            {
+                "description": "„Алaфрангите” – по калдъръмените улички на стария град.",
+                "orderId": 6,
+                "section": "plovdiv",
+                "title": "Пловдив, „Алaфрангите”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F6_Plovdiv_Alafrangite_4.jpg?alt=media&token=b90fc896-6bfd-4742-b7d6-970edb9dfaac"
+            },
+            "Alafrangite_5":
+            {
+                "description": "„Алaфрангите” – по калдъръмените улички на стария град.",
+                "orderId": 7,
+                "section": "plovdiv",
+                "title": "Пловдив, „Алaфрангите”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F7_Plovdiv_Alafrangite_5.jpg?alt=media&token=2546e55e-7afc-4564-92e8-75471e8c4990"
+            },
+            "AntichenTeatar_1":
+            {
+                "description": "„Античният театър на Филипополис” е сред най-добре запазените антични театри в света. Построен е през втори век по време на римския император Марк Улпий Троян (53-117г.). След 3 века е опожарен при нападение на града. Въпреки това, театърът е запазен в първоначалния си архитектурен план. Той е частично възстановен, с около 3500 места.",
+                "orderId": 2,
+                "section": "plovdiv",
+                "title": "Пловдив, „Античният театър на Филипополис”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F2_Plovdiv_AntichenTeatar_1.jpg?alt=media&token=fd5a54c5-058a-4840-b74b-68cc21b07a8f"
+            },
+            "CirilMetodii_1":
+            {
+                "description": "Храм \"Св. св. Кирил и Методий\" изграден в периода 1882 – 1884 г. по проект и под ръководството на арх. Йосиф Шнитер.",
+                "orderId": 15,
+                "section": "plovdiv",
+                "title": "Пловдив, Храм \"Св. св. Кирил и Методий\"",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F15_Plovdiv_CirilMetodii_1.jpg?alt=media&token=af4bffdd-b369-4d73-ade8-f7b8170ee56c"
+            },
+            "Djumayata_1":
+            {
+                "description": "Вляво Пловдивската популярна банка (1923, арх. Юрдан ЮРДАНОВ и Димитър КОЕВ), Вдясно Джумая джамия (XIV век), издигната на мястото на църквата “Св. Петка”.",
+                "orderId": 1,
+                "section": "plovdiv",
+                "title": "Пловдив, „Джумаята”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F1_Plovdiv_Djumayata_1.jpg?alt=media&token=bf8b0567-0f09-4cc2-97ff-489616958ab8"
+            },
+            "EtnoMuseum_1":
+            {
+                "description": "Куюмджиева къща (Етнографски музей) - една от най-забележителните възрожденски къщи, запазили се в нашите земи, дом на пловдивския търговец Аргир Куюмджиоглу, построена е през 1847г. Построена е през 1847 година. Площта й е около 570 квадратни метра, има 4 етажа с 12 големи стаи, 2 салона и около 130 прозореца. Тя е връх в пловдивската възрожденска архитектура.",
+                "orderId": 8,
+                "section": "plovdiv",
+                "title": "Пловдив, Куюмджиева къща (Етнографски музей)",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F8_Plovdiv_EtnoMuseum_1.jpg?alt=media&token=194e34bf-ce9b-437b-a4c4-23ad6a86f899"
+            },
+            "Exelsior_1":
+            {
+                "description": "Търговски център „Екселсиор” (1906 – 1911) по проект за кино на арх. А. Ставрев. При реконструкцията на арх. Едвард Христов е разкрита част от античния римски стадион, която е реставрирана и съхранена.",
+                "orderId": 16,
+                "section": "plovdiv",
+                "title": "Пловдив, Търговски център „Екселсиор”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F16_Plovdiv_Exelsior_1.jpg?alt=media&token=6ccbb681-9008-4632-8a58-715688a86eaa"
+            },
+            "FlowersBuilding_1":
+            {
+                "description": "Сградата на цветята на площад „Джумаята”",
+                "orderId": 17,
+                "section": "plovdiv",
+                "title": "Пловдив, Сградата на цветята",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F17_Plovdiv_FlowersBuilding_1.jpg?alt=media&token=57acf187-5110-4e9b-8358-875d46401324"
+            },
+            "HisarKapia_1":
+            {
+                "description": "Хисар Капия - порта през старинните крепостни стени на Филипопол датира от 11-13 век, но основите са от римско време.",
+                "orderId": 9,
+                "section": "plovdiv",
+                "title": "Пловдив, Хисар Капия",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F9_Plovdiv_HisarKapia_1.jpg?alt=media&token=46f5517d-5518-43ec-b415-53d076c171a2"
+            },
+            "HisarKapia_2":
+            {
+                "description": "Хисар Капия - порта през старинните крепостни стени на Филипопол датира от 11-13 век, но основите са от римско време.",
+                "orderId": 10,
+                "section": "plovdiv",
+                "title": "Пловдив, Хисар Капия",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F10_Plovdiv_HisarKapia_2.jpg?alt=media&token=7de9ed55-a480-4909-8e89-a26d05681f31"
+            },
+            "MainStreet_1":
+            {
+                "description": "Хотел „Молле” (1910) – На 1 януари 1912г. с бляскаво новогодишно тържество на ул.Княз Александър”39, отваря вратите си хотел „Молле”. В книгата за спомени тук са се разписали първото самостоятелно парно отопление в града, първият генератор за електричество, първият пловдивски асансьор. Постройката е изградена от италианския архитект Марио Пернигони, проектирал още ректората на Пловдивски университет, днешната семинария и централна гара.",
+                "orderId": 18,
+                "section": "plovdiv",
+                "title": "Пловдив – Хотел „Молле”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F18_Plovdiv_MainStreet_1.jpg?alt=media&token=8a51b40f-0b8c-4a62-9705-ba15fe176943"
+            },
+            "Museum_1":
+            {
+                "description": "Областно събрание на Източна Румелия построено 1885 г. по проект на италианския архитект Пиетро Монтани. Днес исторически музей. Притежава над 60 000 експоната.",
+                "orderId": 13,
+                "section": "plovdiv",
+                "title": "Пловдив, Областно събрание на Източна Румелия",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F13_Plovdiv_Museum_1.jpg?alt=media&token=05da1c1f-15cd-4163-bbd8-0d479dbc42c0"
+            },
+            "Obshtina_1":
+            {
+                "description": "Сградата на общината е проектирана от арх. Никола Нешов и е построена в периода 1912-1914г. за нуждите на Окръжната администрация. През 20-те години на XX-ти век сградата е дадена за нуждите на областното полицейско управление. В края на 50-те години в сградата се нанасят службите на Община Пловдив.",
+                "orderId": 14,
+                "section": "plovdiv",
+                "title": "Пловдив, Сградата на общината",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F14_Plovdiv_Obshtina_1.jpg?alt=media&token=07cfb240-00e0-43ce-a347-c70427fb3119"
+            },
+            "TheOldTown_1":
+            {
+                "description": "Включен е в Списъка на 100-те национални туристически обекта. Намира се в стария град на Тригълмието и включва паметници от различни епохи.",
+                "orderId": 11,
+                "section": "plovdiv",
+                "title": "Пловдив, Архитектурно-историческият резерват \"Старинен Пловдив\".",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F11_Plovdiv_TheOldTown_1.jpg?alt=media&token=8d4dcf52-b79d-4a2e-b133-23f158e99290"
+            },
+            "TheOldTown_2":
+            {
+                "description": "Включен е в Списъка на 100-те национални туристически обекта. Намира се в стария град на Тригълмието и включва паметници от различни епохи.",
+                "orderId": 12,
+                "section": "plovdiv",
+                "title": "Пловдив, Архитектурно-историческият резерват \"Старинен Пловдив\".",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fplovdiv%2F12_Plovdiv_TheOldTown_2.jpg?alt=media&token=9378da0f-45fc-499b-8900-7182c806cf0e"
+            }
+        },
+        "ruse":
+        {
+            "Alexandrovska_1":
+            {
+                "description": "Жилищно-търговската сграда на братя Папаманоли, построена през 1897 г. по проект на арх. Едвин Пиетрицки. Следва банката на Бурови , сторена 1912 г. по проект на арх. Янович.",
+                "orderId": 1,
+                "section": "ruse",
+                "title": "Русе, ансамбъл по централната улица „Александровска”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Alexandrovska_1.jpg?alt=media&token=0be1ec85-05bf-4a70-b17d-197ceb5cd948"
+            },
+            "Alexandrovska_2":
+            {
+                "description": "Жилищно-търговската сграда на братя Папаманоли, построена през 1897 г. по проект на арх. Едвин Пиетрицки. Следва банката на Бурови , сторена 1912 г. по проект на арх. Янович.",
+                "orderId": 2,
+                "section": "ruse",
+                "title": "Русе, ансамбъл по централната улица „Александровска”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Alexandrovska_2.jpg?alt=media&token=57855dd4-30de-42c5-b94a-e506c490ce8a",
+                "year": 2014
+            },
+            "Batemberg_1":
+            {
+                "description": "Сградата на бившето Окръжното управление e построена през 1882 – 1892 г. от арх. Фридрих Грюнангер. Първоначалният замисъл е сградата да се използва като резиденция на княз Александър I Батенберг, затова и до днес се нарича Дворецът Батенберг. Днес в тази сграда се помещава Регионалният исторически музей.",
+                "orderId": 3,
+                "section": "ruse",
+                "title": "Русе, Сградата на бившето Окръжното управление",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Batemberg_1.jpg?alt=media&token=54c97a43-467b-4918-97a1-856ab828fdbd"
+            },
+            "Bulgaria_1":
+            {
+                "description": "Сградата на Застрахователно дружество „България“ е построена през 1891 г. по  проект на Едуард Винтер е Фреските в интериора са от 1901 година на италианския художник Медеа Джовани Пигор.",
+                "orderId": 4,
+                "section": "ruse",
+                "title": "Русе, Сградата на Застрахователно дружество „България“ ",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Bulgaria_1.jpg?alt=media&token=378da46b-0e05-4893-a8fc-8e9150b3be7f"
+            },
+            "ByalaBridge_1":
+            {
+                "description": "Беленският мост е построен от Колю Фичето и се смята за постижение на българското възрожденско инженерно-строително и архитектурно изкуство. Работата по него започва през 1865 г. и завършва през 1867 г. Построен е по заповед на Мидхат паша.",
+                "orderId": 5,
+                "section": "ruse",
+                "title": "Беленският мост",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_ByalaBridge_1.jpg?alt=media&token=061734ed-2448-4f78-9af7-d44918b4d672"
+            },
+            "CommercialBank_1":
+            {
+                "description": "Сградата на бившата Кредитно-търговска популярна банка, построена през 1910-11 г. от инж. Геро Геров. Ул. „Хр. Г. Данов” №2.",
+                "orderId": 6,
+                "section": "ruse",
+                "title": "Русе, Сградата на бившата Кредитно-търговска популярна банка",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialBank_1.jpg?alt=media&token=fcd39fb3-9bcb-48ef-9c7d-025494232bd1"
+            },
+            "CommercialCamera_1":
+            {
+                "description": "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
+                "orderId": 7,
+                "section": "ruse",
+                "title": "Русе, Сградата на Търговско-индустриалната камара",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_1.jpg?alt=media&token=22c83cea-c5f4-4084-b16d-737347231e9c"
+            },
+            "CommercialCamera_2":
+            {
+                "description": "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
+                "orderId": 8,
+                "section": "ruse",
+                "title": "Русе, Сградата на Търговско-индустриалната камара",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_2.jpg?alt=media&token=7fde07f6-9998-49bd-a900-83bc51257f71"
+            },
+            "CommercialCamera_3":
+            {
+                "description": "Сградата на Търговско-индустриалната камара (открита 1916 г.) е дело на арх. Никола Лазаров. Сега в нея се помещава регионалната библиотека „Любен Каравелов”",
+                "orderId": 9,
+                "section": "ruse",
+                "title": "Русе, Сградата на Търговско-индустриалната камара",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_CommercialCamera_3.jpg?alt=media&token=6b5aca89-7b08-4d9d-a113-88740acac64f"
+            },
+            "DohodnoZora_1":
+            {
+                "description": "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
+                "orderId": 13,
+                "section": "ruse",
+                "title": "Русе, Доходното здание и читалище „Зора”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_DohodnoZora_1.jpg?alt=media&token=a1de3f1f-2da1-47da-893a-0a6b697c94ee"
+            },
+            "Dohodno_1":
+            {
+                "description": "Доходното здание и достолепната сграда на бившият хотел „Тетевен”, построен през 1897 г. от италианския арх. Нино Росети за дом на фабриканта Андре Тюрийо.",
+                "orderId": 10,
+                "section": "ruse",
+                "title": "Русе, Доходното здание и достолепната сграда на бившият хотел „Тетевен”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_1.jpg?alt=media&token=ac004a9a-5397-4c7b-89dd-325dbcbf6033"
+            },
+            "Dohodno_2":
+            {
+                "description": "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
+                "orderId": 11,
+                "section": "ruse",
+                "title": "Русе, Доходното здание",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_2.jpg?alt=media&token=48db75ff-f60c-42df-b5f2-fea8d0414262"
+            },
+            "Dohodno_4":
+            {
+                "description": "Доходното здание е построено е в периода 1898-1902 г. от виенският архитект Петер Паул Бранг (1852/1925). Името произлиза от идеята сградата да носи на тогавашното училищно настоятелство доходи от наемите за предвидените магазини, театрален салон, библиотека и казино.",
+                "orderId": 12,
+                "section": "ruse",
+                "title": "Русе, Доходното здание",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Dohodno_4.jpg?alt=media&token=3b623144-77c7-4d19-8372-05147ca799c5"
+            },
+            "Girdap_1":
+            {
+                "description": "Сградата на Акционерно дружество „Гирдап“, което е първата частна банка в България, основана през 1881 г. Сградата е построена през 1896 г. по проект на архитектите Стоян Золотов и Удо Рибау. Понастоящем сградата се използва от Сметната палата.",
+                "orderId": 14,
+                "section": "ruse",
+                "title": "Русе, Сградата на Акционерно дружество „Гирдап“",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Girdap_1.jpg?alt=media&token=224597f6-ab48-4a76-ab24-e680e732ced1"
+            },
+            "LaButica_1":
+            {
+                "description": "„Ла Бутика” - търговската къща на Елиезар Канети, дядо на нобеловия лауреат за литература Елиас Канети, строена през 1898г.",
+                "orderId": 15,
+                "section": "ruse",
+                "title": "Русе, „Ла Бутика”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_LaButica_1.jpg?alt=media&token=69df5b6a-d294-4d56-9f05-98f828d4480b"
+            },
+            "MusicSchool_1":
+            {
+                "description": "Сградата построена през 1900-1901 г. от Протестантската общественост в България е дело на арх. Удо Рибау и инж. Тодор Тонев.",
+                "orderId": 16,
+                "section": "ruse",
+                "title": "Русе, Старото музикално училище",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_MusicSchool_1.jpg?alt=media&token=d6ba3cdb-d54a-49a2-993e-c78809fd317e"
+            },
+            "SimeonovHouse_1":
+            {
+                "description": "Къщата на банкера Иван Симеонов, построена през 1895 г. от арх. Нигохос Бедросян. Сега в нея се помещава Католическата никополска епархия.",
+                "orderId": 17,
+                "section": "ruse",
+                "title": "Русе, Къщата на банкера Иван Симеонов",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_SimeonovHouse_1.jpg?alt=media&token=8699178e-d1f9-4fa6-99ef-b18dd110e688"
+            },
+            "Svoboda_1":
+            {
+                "description": "Площад „Свобода” - Градската градина, Паметникът на Свободата и Доходното здание 1898/1902 на арх. Петер Паул Бранг (1852/1925).",
+                "orderId": 18,
+                "section": "ruse",
+                "title": "Русе, Площад „Свобода”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Svoboda_1.jpg?alt=media&token=022daca2-7c2f-4d1e-8d57-4e5baadf6d49"
+            },
+            "Svoboda_2":
+            {
+                "description": "Площад „Свобода” - Градската градина, Паметникът на Свободата и Доходното здание 1898/1902 на арх. Петер Паул Бранг (1852/1925).",
+                "orderId": 19,
+                "section": "ruse",
+                "title": "Русе, Площад „Свобода”",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Svoboda_2.jpg?alt=media&token=2ee0f581-5223-4c18-aec2-f26cb27d4c1f"
+            },
+            "Turio_1":
+            {
+                "description": "Къщата на Андре Тюрийо или „Виенската къща“, както я нарекли русенци, е най-красивата къща в Русе, завършена през 1900 г. по проект на арх. Едвин Пиетрицки.",
+                "orderId": 20,
+                "section": "ruse",
+                "title": "Русе, Къщата на Андре Тюрийо",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/paintings%2Fruse%2FRuse_Turio_1.jpg?alt=media&token=1b0966d0-ed12-4055-910c-2aa1fc664397"
+            }
+        }
+    },
+    "paintingsKeys":
+    {
+        "drawings":
+        {
+            "key": "drawings",
+            "name": "Рисунки"
+        },
+        "monasteries":
+        {
+            "key": "monasteries",
+            "name": "Манастири"
+        },
+        "plovdiv":
+        {
+            "key": "plovdiv",
+            "name": "Пловдив"
+        },
+        "ruse":
+        {
+            "key": "ruse",
+            "name": "Русе"
+        },
+        "sofia":
+        {
+            "key": "sofia",
+            "name": "София"
+        }
+    },
+    "photos":
+    {
+        "africa":
+        {
+            "testAfrica":
+            {
+                "name": "Test Africa"
+            }
+        },
+        "america":
+        {
+            "testAmerica":
+            {
+                "name": "Test America"
+            }
+        },
+        "asia":
+        {
+            "testAsia":
+            {
+                "name": "Test Asia"
+            }
+        },
+        "balkan":
+        {
+            "testBalkan":
+            {
+                "name": "Test Balkan section"
+            }
+        },
+        "blacksea":
+        {
+            "testBlackSea":
+            {
+                "name": "Test Black sea section"
+            }
+        },
+        "colages":
+        {
+            "MiraFlowers":
+            {
+                "fileName": "MiraFlowers.jpg",
+                "name": "Mira with flowers",
+                "orderId": 2,
+                "section": "colages",
+                "title": "Mira with flowers",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FMiraFlowers.jpg?alt=media&token=a8d64b49-2e7f-4c1c-8d61-314d205c1516",
+                "year": 2016
+            },
+            "MiraWindow":
+            {
+                "fileName": "MiraWindow.jpg",
+                "name": "Mira on a flower window",
+                "orderId": 3,
+                "section": "colages",
+                "title": "Mira on a flower window",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FMiraWindow.jpg?alt=media&token=39be7641-15ba-4a3b-8b5c-6271e521589c",
+                "year": 2016
+            },
+            "SvetlinCars":
+            {
+                "fileName": "SvetlinCars.jpg",
+                "name": "Svetlin and car",
+                "orderId": 1,
+                "section": "colages",
+                "title": "Svetlin and car",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FSvetlinCars.jpg?alt=media&token=26372f4b-621f-4d20-9050-20f0fe07a194",
+                "year": 2016
+            },
+            "SvetlinHourses":
+            {
+                "fileName": "SvetlinHourses.jpg",
+                "name": "Svetlin with hourses",
+                "orderId": 4,
+                "secton": "colages",
+                "title": "Svetlin with hourses",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/photos%2Fcolages%2FSvetlinHourses.jpg?alt=media&token=371abb85-8a45-4d5c-bbb9-971661c884d5",
+                "year": 2016
+            }
+        },
+        "danube":
+        {
+            "testDanube":
+            {
+                "name": "Test Danube section"
+            }
+        },
+        "europe":
+        {
+            "testEurope":
+            {
+                "name": "Test Europe"
+            }
+        },
+        "mountains":
+        {
+            "testMountains":
+            {
+                "name": "Test Mountains section"
+            }
+        },
+        "southwestbg":
+        {
+            "testSouthWestBg":
+            {
+                "name": "Test South-West BG"
+            }
+        },
+        "tracia":
+        {
+            "testTracia":
+            {
+                "name": "Test tracia section"
+            }
+        }
+    },
+    "presentations":
+    {
+        "community":
+        {
+            "TestCommunityPresentation":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 1,
+                "section": "community",
+                "title": "Test Community Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestCommunityPresentation2":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 2,
+                "section": "community",
+                "title": "Test Community Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestCommunityPresentation3":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 3,
+                "section": "community",
+                "title": "Test Community Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
+        },
+        "development":
+        {
+            "TestDevelopmentPresentation1":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 1,
+                "section": "development",
+                "title": "Test Development Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestDevelopmentPresentation2":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 2,
+                "section": "development",
+                "title": "Test Development Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestDevelopmentPresentation3":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "orderId": 3,
+                "section": "development",
+                "title": "Test Development Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
+        },
+        "planning":
+        {
+            "TestPlanningPresentation":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 1,
+                "section": "planning",
+                "title": "Test Planning Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestPlanningPresentation2":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 2,
+                "section": "planning",
+                "title": "Test Planning Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestPlanningPresentation3":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 3,
+                "section": "planning",
+                "title": "Test Planning Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
+        },
+        "regeneration":
+        {
+            "TestRegenerationPresentation1":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 1,
+                "section": "regeneration",
+                "title": "Test Regeneration Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestRegenerationPresentation2":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 2,
+                "section": "regeneration",
+                "title": "Test Regeneration Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            },
+            "TestRegenerationPresentation3":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "orderId": 3,
+                "section": "regeneration",
+                "title": "Test Regeneration Presentation section",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+            }
+        }
+    },
+    "projects":
+    {
+        "development":
+        {
+            "IpgvrPlovdiv":
+            {
+                "description": "ИПГВР на Пловдив е разглеждан като връзка между системата за социално-икономическо планиране и тази за устройствено планиране. Планът съвместява в себе си характерните особености на стратегическото планиране и териториалното устройство, като представлява специфичен инструмент, съдържащ едновременно устройствени планове и финансови програми. По отношение на съгласуваността, в контекста на отсъствие на национална политика за градско възстановяване и развитие, ИПГВР на гр. Пловдив се съобразява основно с предвижданията и идеите, заложени в пакета от планови документи на общината.",
+                "documents":
+                {
+                    "Discussions":
+                    {
+                        "fileName": "ForumDiscussions.pdf",
+                        "title": "Обобщение на общественото обсъждане",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FForumDiscussions.pdf?alt=media&token=8cedf34d-434e-49d0-b1df-af5bc0f10244"
+                    },
+                    "FinalProject":
+                    {
+                        "fileName": "IpgvrPlovdiv.pdf",
+                        "title": "Окончателен проект",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv%2Fdocuments%2FIpgvrPlovdiv.pdf?alt=media&token=9df40965-6849-49a6-8e6c-61f4dfdae361"
+                    }
+                },
+                "fileName": "IpgvrPlovdiv.jpg",
+                "orderId": 1,
+                "section": "development",
+                "title": "Интегриран план за градско възстановяване и развитие на град Пловдив",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+            },
+            "secondTest":
+            {
+                "description": "Опала пак описание някакво",
+                "documents":
+                {
+                    "testDocKey":
+                    {
+                        "fileName": "20170208_113308.jpg",
+                        "title": "Заглавие на тоз",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2Fundefined%2Fdocuments%2F20170208_113308.jpg?alt=media&token=e4d57ecb-0ff4-4ab7-a26e-a8832e4f2dd5"
+                    }
+                },
+                "fileName": "20170208_113523.jpg",
+                "orderId": 0,
+                "section": "development",
+                "title": "Заглавие на втори тестови",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2F20170208_113523.jpg?alt=media&token=b433be7b-888f-457c-a469-1191dd6fc1e2",
+                "year": 2016
+            },
+            "testProject":
+            {
+                "description": "Това е тестови проект създаден през администраторската форма.",
+                "documents":
+                {
+                    "testDoc":
+                    {
+                        "fileName": "20170208_113528.jpg",
+                        "title": "Тестови документ",
+                        "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2Fundefined%2Fdocuments%2F20170208_113528.jpg?alt=media&token=6cc8b587-fd24-4964-8bd8-21c833b98db6"
+                    }
+                },
+                "fileName": "20170208_113254.jpg",
+                "orderId": 0,
+                "section": "development",
+                "title": "Тестови проект",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2F20170208_113254.jpg?alt=media&token=e4bc7848-60c4-4630-9e1d-15b2fc9a4dfb",
+                "year": 2017
+            }
+        },
+        "planning":
+        {
+            "testPlanningProjects":
+            {
+                "description": "ИПГВР на Пловдив е разглеждан като връзка между системата за социално-икономическо планиране и тази за устройствено планиране. Планът съвместява в себе си характерните особености на стратегическото планиране и териториалното устройство, като представлява специфичен инструмент, съдържащ едновременно устройствени планове и финансови програми. По отношение на съгласуваността, в контекста на отсъствие на национална политика за градско възстановяване и развитие, ИПГВР на гр. Пловдив се съобразява основно с предвижданията и идеите, заложени в пакета от планови документи на общината.",
+                "fileName": "TestPlanning.jpg",
+                "orderId": 1,
+                "section": "planning",
+                "title": "Test Planning Project",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+            }
+        },
+        "regeneration":
+        {
+            "testRegeneration":
+            {
+                "description": "Test this description of the project Regeneration. Blaqqhghfasjhf jhsfgas jhgf asjhgf asjh",
+                "fileName": "TestRegeneration.jpg",
+                "orderId1": 1,
+                "section": "regeneration",
+                "title": "Test Regeneratin project",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+            }
+        }
+    },
+    "publications":
+    {
+        "community":
+        {
+            "testCommunity":
+            {
+                "coauthor": "Test Author",
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "edition": "в. Строителство градът, 02.05.2010",
+                "orderId": 1,
+                "section": "community",
+                "title": "Test Community publications",
+                "url": "http://gradat.bg/interview/2010/05/02/895663_bez_tehnicheski_obosnovani_proekti_shte_ostanem_samo/"
+            }
+        },
+        "development":
+        {
+            "DanubeProgramme":
+            {
+                "description": "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
+                "edition": "в. Строителство градът, 02.05.2010",
+                "orderId": 4,
+                "section": "development",
+                "title": "Без технически обосновани проекти ще останем само наблюдатели",
+                "url": "http://gradat.bg/interview/2010/05/02/895663_bez_tehnicheski_obosnovani_proekti_shte_ostanem_samo/"
+            },
+            "EuFinancingForUrbanInnovation":
+            {
+                "description": "През май и в началото на юни в публичното пространство се появиха три интересни публикации. На 11 май Институтът за пазарна икономика представи новото си изследване \"Успехите и провалите на българските общини 2011 – 2014\", което се базира на преглед и анализ на одитните доклади на Сметната палата.",
+                "edition": "в. Капитал, 29 юни 2016",
+                "orderId": 10,
+                "section": "development",
+                "title": "Еврофинансиране на градски иновативни дейности",
+                "url": "http://www.capital.bg/biznes/konsult/2016/06/29/2786741_evrofinansirane_na_gradski_inovativni_deinosti/"
+            },
+            "GrowthAndSustainableDevelopmentProgramme":
+            {
+                "coauthor": "Веселин Цветанов, Петко Маринов",
+                "description": "В началото на настоящата годна Министерският съвет на Република България одобри проектите, които ще бъдат финансирани през 2014 г. от публичната инвестиционна програма \"Растеж и устойчиво развитие на регионите\". Това безспорно е една добра инициатива, особено като се има предвид очертаващата се нулева година без действащи нови оперативни програми и съответно без нови договори с потенциалните бенефициенти.",
+                "edition": "в. Строителство градът, 12.05.2014",
+                "orderId": 2,
+                "section": "development",
+                "title": "Програма \"Растеж и устойчиво развитие на регионите\" - инициатива с надежда за развитие",
+                "url": "http://gradat.bg/news/2014/05/12/2297685_programa_rastej_i_ustoichivo_razvitie_na_regionite_-/"
+            },
+            "IntegratedPlans":
+            {
+                "description": "Интегрираният план за градско възстановяване и развитие е \"бизнес план\", програма за интегрирано осъществяване на секторните политики и стратегии на общината съобразено с възможностите на пространственото планиране. Този подход се прилага, за да се постигнат по-ефективни резултати от влагането на различни видове ресурси в обновяването и развитието на градовете.",
+                "edition": "в. Строителство градът, 22.10.2012",
+                "orderId": 3,
+                "section": "development",
+                "title": "В разработването на плана се стремим да мислим като \"предприемчиви стопани\"",
+                "url": "http://gradat.bg/interview/2012/10/22/1930007_v_razrabotvaneto_na_plana_se_stremim_da_mislim_kato/"
+            },
+            "IntegratedPlansProjects":
+            {
+                "description": "Интегрираните планове за градско възстановяване и развитие се разработват като изискване от Европейската комисия за по-ефективно усвояване на средствата от структурните фондове на Европейския съюз. Това изискване е във връзка с прилагането на Лайпцигската харта за устойчиви европейски градове, която беше приета на неформална среща на европейските министри, отговарящи за устройството на територията през май 2007 г.",
+                "edition": "в. Строителство градът, 08.03.2010",
+                "orderId": 5,
+                "section": "development",
+                "title": "Целта е да се направят добри проекти, гарантиращи устойчивост",
+                "url": "http://gradat.bg/interview/2010/03/08/869505_celta_e_da_se_napraviat_dobri_proekti_garantirashti/"
+            },
+            "InvestmentProgrammePlovdiv":
+            {
+                "coauthor": "урб. Здравко Петров",
+                "description": "ОП \"Регионално развитие\" 2007 - 2013 г. и реализираните чрез нея проекти са вече част от историята на град Пловдив. Древният град отново ще може да разчита на Европейския фонд за регионално развитие, достъпен чрез новата ОП \"Региони в растеж\" 2014 - 2020. Средствата за градско обновяване на Пловдив са предварително определени и възлизат на 80 851 031.52 лв. безвъзмездна финансова помощ.",
+                "edition": "в. Строителство градът, 08.09.2016",
+                "orderId": 1,
+                "section": "development",
+                "title": "Проекти за 80 млн. лв. включва Инвестиционната програма за реализация на ИПГВР - Пловдив",
+                "url": "http://gradat.bg/news/2015/11/09/2645611_proekti_za_80_mln_lv_vkljuchva_investicionnata/"
+            },
+            "LocalDevelopmentPlans":
+            {
+                "description": "За да усвои предоставяните пари, в оставащите до приемането ни 2 и половина години, България трябва да подготви цялата нормативна база, планове и проекти и да осигури за съфинансиране още толкова пари.",
+                "edition": "в. Строителство градът, 26.06.2004",
+                "orderId": 9,
+                "section": "development",
+                "title": "Общините трябва да подготвят планове за развитие до март 2005 г.",
+                "url": "http://gradat.bg/news/2004/06/26/324846_obshtinite_triabva_da_podgotviat_planove_za_razvitie/"
+            },
+            "NationalDevelopmentScheme":
+            {
+                "description": "За хората, които работим в областта на устройство на територията и регионалното развитие, е голяма радост, че най-после се обръща сериозно внимание на нормативно заложена от 2001 г. със Закона за устройство на територията национална комплексна устройствена схема.",
+                "edition": "в. Строителство градът, 05.01.2008",
+                "orderId": 6,
+                "section": "development",
+                "title": "Националната устройствена схема е супердържавна задача",
+                "url": "http://gradat.bg/news/2008/01/05/444762_nacionalnata_ustroistvena_shema_e_superdurjavna_zadacha/"
+            },
+            "RegionalDevelopmentPolicyInBg":
+            {
+                "description": "МРРБ е отговорно за провеждане на реформата в регионалното развитие на страната, устройството на територията и изграждането на основните мрежи и съоръжения на техническата инфраструктура. Балансираното, устойчиво развитие на националната територия е жизненоважна предпоставка за повишаване на инвестиционния интерес към България и оттам за постигането на стабилен икономически растеж и международна конкурентоспособност.",
+                "edition": "в. Строителство градът, 25.10.2004",
+                "orderId": 7,
+                "section": "development",
+                "title": "Приоритети на регионалната политика на България в процеса на присъединяване към ЕС",
+                "url": "http://gradat.bg/news/2004/10/25/325231_prioriteti_na_regionalnata_politika_na_bulgariia_v/"
+            },
+            "SustainableDevelopmentBg":
+            {
+                "description": "От 1997 г. насам принципите за устойчиво развитие заемат централно място в Договора на Европейския съюз и държавите, които се стремят да се присъединят към него, трябва да ги приложат към своята цялостна политика и законова уредба.",
+                "edition": "в. Строителство градът, 18.09.2004",
+                "orderId": 8,
+                "section": "development",
+                "title": "Политиката на България по отношение на прилагане на принципите на устойчивото развитие",
+                "url": "http://gradat.bg/news/2004/09/18/324919_politikata_na_bulgariia_po_otnoshenie_na_prilagane_na/"
+            }
+        },
+        "planning":
+        {
+            "DevelopmentOfPoblicSpace":
+            {
+                "description": "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
+                "edition": "в. Строителство градът, 07.07.2014",
+                "orderId": 2,
+                "section": "planning",
+                "title": "Основните тематични области за развитие на публичните пространства",
+                "url": "http://gradat.bg/news/2014/07/07/2338464_osnovnite_tematichni_oblasti_za_razvitie_na/"
+            },
+            "SustainableCities":
+            {
+                "description": "Санирането на съществуващите сгради и новото зелено строителство не могат да постигнат желания от обществото ефект, ако не се планират и изграждат в общия контекст на интегрираното възстановяване на градската среда",
+                "edition": "в. Строителство градът, 07.03.2011",
+                "orderId": 4,
+                "section": "planning",
+                "title": "Устойчивите градове генерират проспериращи общества",
+                "url": "http://gradat.bg/forumgradat/2011/03/07/1054263_ustoichivite_gradove_generirat_prosperirashti/"
+            },
+            "UrbanPlanningProjects":
+            {
+                "description": "Разходете се от Борисовата градина, през Орлов мост, покрай паметника на руската армия. Оттам лесно можете да прескочите към площада на Народното събрание, от него - към Народната библиотека и Докторската градина или в обратната посока - към катедрала \"Свети Александър Невски\", зад Военния клуб или надолу по ул. \"Раковски\" до градинката на \"Кристал\" и после към площад \"Славейков\" и ул. \"Граф Игнатиев\".",
+                "edition": "в. Строителство градът, 04.07.2011",
+                "orderId": 3,
+                "section": "planning",
+                "title": "Градовете протягат ръце към няколко европейски милиона за нови проекти",
+                "url": "http://gradat.bg/news/2011/07/04/1117155_gradovete_protiagat_ruce_kum_niakolko_evropeiski/"
+            },
+            "UrbanPublicSpace":
+            {
+                "description": "Градските обществени пространства са всички видове отворени пространства за общо ползване в съчетание с облика на обкръжаващите ги сгради. Това са булеварди, улици, площади, паркове, вътрешноквартални пространства, пешеходни зони, зони за спорт и отдих, подземни пространства - подлези, метро, предгарови площади и др.",
+                "edition": "в. Строителство градът, 07.07.2014",
+                "orderId": 1,
+                "section": "planning",
+                "title": "Градските обществени пространства - за хората и от хората",
+                "url": "http://gradat.bg/proekti_i_stanovishta/2014/07/07/2338459_gradskite_obshtestveni_prostranstva_-_za_horata_i_ot/"
+            }
+        },
+        "regeneration":
+        {
+            "NewYorkOculus":
+            {
+                "description": "На 3 март 2016 г. в 15 ч. местно време на \"Кота нула\" в сърцето на Световния търговски център, където преди 11 септември 2001 г. се издигаха кулите близнаци, след 10 години строителство отвори врати Новият транспортен възел (хъб), дело на арх. Сантяго Калатрава.",
+                "edition": "сп. Градът, 09.11.2015",
+                "orderId": 2,
+                "section": "regeneration",
+                "title": "Ню Йорк: Oculus излита",
+                "url": "http://infrastructure.bg/show.php?storyid=2823707"
+            },
+            "TobaccoWarehouses":
+            {
+                "description": "В Европа и по света съществуват различни подходи за провеждане на урбанистичните политики на национално и местно ниво. Такъв подход е регенерацията (Urban Regeneration; Urban Renewal; градско обновяване) – една комплексна визия за градско възстановяване и развитие, подкрепена с конкретни дейности, насочени към промяна на условията в жизнената среда за постигане на определени икономически и социални цели.",
+                "edition": "сп. Градът, 10.01.2017",
+                "orderId": 1,
+                "section": "regeneration",
+                "title": "Днешният ден на емблематични тютюневи складове по света",
+                "url": "http://gradat.bg/news/2017/01/10/2894758_dneshniiat_den_na_emblematichni_tjutjunevi_skladove_po/"
+            }
+        }
+    },
+    "regeneration":
+    {
+        "regeneration":
+        {
+            "testRegeneration":
+            {
+                "title": "Test Regeneration Regeneration",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+            }
+        }
+    },
+    "trainings":
+    {
+        "community":
+        {
+            "testTraining":
+            {
+                "title": "Test Training",
+                "url": "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
+            }
+        }
     }
-  },
-  "publications" : {
-    "community" : {
-      "testCommunity" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "coauthor" : "Test Author",
-        "edition" : "в. Строителство градът, 02.05.2010",
-        "orderId" : 1,
-        "section" : "community",
-        "title" : "Test Community publications",
-        "url" : "http://gradat.bg/interview/2010/05/02/895663_bez_tehnicheski_obosnovani_proekti_shte_ostanem_samo/"
-      }
-    },
-    "development" : {
-      "DanubeProgramme" : {
-        "description" : "България има национална позиция за Дунавската стратегия, придружена от 20 комплексни програми, чрез които сме обобщили приоритетите и възможните програми за реализация. Тя съдържа 250 проекта, предложени от заинтересованите страни. Сега сме в процес на определяне на няколко - например пет национални комплексни програми, или нека да ги наречем пет комплексни интегрирани макропроекта.",
-        "edition" : "в. Строителство градът, 02.05.2010",
-        "orderId" : 4,
-        "section" : "development",
-        "title" : "Без технически обосновани проекти ще останем само наблюдатели",
-        "url" : "http://gradat.bg/interview/2010/05/02/895663_bez_tehnicheski_obosnovani_proekti_shte_ostanem_samo/"
-      },
-      "EuFinancingForUrbanInnovation" : {
-        "description" : "През май и в началото на юни в публичното пространство се появиха три интересни публикации. На 11 май Институтът за пазарна икономика представи новото си изследване \"Успехите и провалите на българските общини 2011 – 2014\", което се базира на преглед и анализ на одитните доклади на Сметната палата.",
-        "edition" : "в. Капитал, 29 юни 2016",
-        "orderId" : 10,
-        "section" : "development",
-        "title" : "Еврофинансиране на градски иновативни дейности",
-        "url" : "http://www.capital.bg/biznes/konsult/2016/06/29/2786741_evrofinansirane_na_gradski_inovativni_deinosti/"
-      },
-      "GrowthAndSustainableDevelopmentProgramme" : {
-        "description" : "В началото на настоящата годна Министерският съвет на Република България одобри проектите, които ще бъдат финансирани през 2014 г. от публичната инвестиционна програма \"Растеж и устойчиво развитие на регионите\". Това безспорно е една добра инициатива, особено като се има предвид очертаващата се нулева година без действащи нови оперативни програми и съответно без нови договори с потенциалните бенефициенти.",
-        "coauthor" : "Веселин Цветанов, Петко Маринов",
-        "edition" : "в. Строителство градът, 12.05.2014",
-        "orderId" : 2,
-        "section" : "development",
-        "title" : "Програма \"Растеж и устойчиво развитие на регионите\" - инициатива с надежда за развитие",
-        "url" : "http://gradat.bg/news/2014/05/12/2297685_programa_rastej_i_ustoichivo_razvitie_na_regionite_-/"
-      },
-      "IntegratedPlans" : {
-        "description" : "Интегрираният план за градско възстановяване и развитие е \"бизнес план\", програма за интегрирано осъществяване на секторните политики и стратегии на общината съобразено с възможностите на пространственото планиране. Този подход се прилага, за да се постигнат по-ефективни резултати от влагането на различни видове ресурси в обновяването и развитието на градовете.",
-        "edition" : "в. Строителство градът, 22.10.2012",
-        "orderId" : 3,
-        "section" : "development",
-        "title" : "В разработването на плана се стремим да мислим като \"предприемчиви стопани\"",
-        "url" : "http://gradat.bg/interview/2012/10/22/1930007_v_razrabotvaneto_na_plana_se_stremim_da_mislim_kato/"
-      },
-      "IntegratedPlansProjects" : {
-        "description" : "Интегрираните планове за градско възстановяване и развитие се разработват като изискване от Европейската комисия за по-ефективно усвояване на средствата от структурните фондове на Европейския съюз. Това изискване е във връзка с прилагането на Лайпцигската харта за устойчиви европейски градове, която беше приета на неформална среща на европейските министри, отговарящи за устройството на територията през май 2007 г.",
-        "edition" : "в. Строителство градът, 08.03.2010",
-        "orderId" : 5,
-        "section" : "development",
-        "title" : "Целта е да се направят добри проекти, гарантиращи устойчивост",
-        "url" : "http://gradat.bg/interview/2010/03/08/869505_celta_e_da_se_napraviat_dobri_proekti_garantirashti/"
-      },
-      "InvestmentProgrammePlovdiv" : {
-        "description" : "ОП \"Регионално развитие\" 2007 - 2013 г. и реализираните чрез нея проекти са вече част от историята на град Пловдив. Древният град отново ще може да разчита на Европейския фонд за регионално развитие, достъпен чрез новата ОП \"Региони в растеж\" 2014 - 2020. Средствата за градско обновяване на Пловдив са предварително определени и възлизат на 80 851 031.52 лв. безвъзмездна финансова помощ.",
-        "coauthor" : "урб. Здравко Петров",
-        "edition" : "в. Строителство градът, 08.09.2016",
-        "orderId" : 1,
-        "section" : "development",
-        "title" : "Проекти за 80 млн. лв. включва Инвестиционната програма за реализация на ИПГВР - Пловдив",
-        "url" : "http://gradat.bg/news/2015/11/09/2645611_proekti_za_80_mln_lv_vkljuchva_investicionnata/"
-      },
-      "LocalDevelopmentPlans" : {
-        "description" : "За да усвои предоставяните пари, в оставащите до приемането ни 2 и половина години, България трябва да подготви цялата нормативна база, планове и проекти и да осигури за съфинансиране още толкова пари.",
-        "edition" : "в. Строителство градът, 26.06.2004",
-        "orderId" : 9,
-        "section" : "development",
-        "title" : "Общините трябва да подготвят планове за развитие до март 2005 г.",
-        "url" : "http://gradat.bg/news/2004/06/26/324846_obshtinite_triabva_da_podgotviat_planove_za_razvitie/"
-      },
-      "NationalDevelopmentScheme" : {
-        "description" : "За хората, които работим в областта на устройство на територията и регионалното развитие, е голяма радост, че най-после се обръща сериозно внимание на нормативно заложена от 2001 г. със Закона за устройство на територията национална комплексна устройствена схема.",
-        "edition" : "в. Строителство градът, 05.01.2008",
-        "orderId" : 6,
-        "section" : "development",
-        "title" : "Националната устройствена схема е супердържавна задача",
-        "url" : "http://gradat.bg/news/2008/01/05/444762_nacionalnata_ustroistvena_shema_e_superdurjavna_zadacha/"
-      },
-      "RegionalDevelopmentPolicyInBg" : {
-        "description" : "МРРБ е отговорно за провеждане на реформата в регионалното развитие на страната, устройството на територията и изграждането на основните мрежи и съоръжения на техническата инфраструктура. Балансираното, устойчиво развитие на националната територия е жизненоважна предпоставка за повишаване на инвестиционния интерес към България и оттам за постигането на стабилен икономически растеж и международна конкурентоспособност.",
-        "edition" : "в. Строителство градът, 25.10.2004",
-        "orderId" : 7,
-        "section" : "development",
-        "title" : "Приоритети на регионалната политика на България в процеса на присъединяване към ЕС",
-        "url" : "http://gradat.bg/news/2004/10/25/325231_prioriteti_na_regionalnata_politika_na_bulgariia_v/"
-      },
-      "SustainableDevelopmentBg" : {
-        "description" : "От 1997 г. насам принципите за устойчиво развитие заемат централно място в Договора на Европейския съюз и държавите, които се стремят да се присъединят към него, трябва да ги приложат към своята цялостна политика и законова уредба.",
-        "edition" : "в. Строителство градът, 18.09.2004",
-        "orderId" : 8,
-        "section" : "development",
-        "title" : "Политиката на България по отношение на прилагане на принципите на устойчивото развитие",
-        "url" : "http://gradat.bg/news/2004/09/18/324919_politikata_na_bulgariia_po_otnoshenie_na_prilagane_na/"
-      }
-    },
-    "planning" : {
-      "DevelopmentOfPoblicSpace" : {
-        "description" : "Публично пространство, промени в символиката на публичното пространство, място и идентичност, публичното пространство като предпоставка и ресурс за социална промяна",
-        "edition" : "в. Строителство градът, 07.07.2014",
-        "orderId" : 2,
-        "section" : "planning",
-        "title" : "Основните тематични области за развитие на публичните пространства",
-        "url" : "http://gradat.bg/news/2014/07/07/2338464_osnovnite_tematichni_oblasti_za_razvitie_na/"
-      },
-      "SustainableCities" : {
-        "description" : "Санирането на съществуващите сгради и новото зелено строителство не могат да постигнат желания от обществото ефект, ако не се планират и изграждат в общия контекст на интегрираното възстановяване на градската среда",
-        "edition" : "в. Строителство градът, 07.03.2011",
-        "orderId" : 4,
-        "section" : "planning",
-        "title" : "Устойчивите градове генерират проспериращи общества",
-        "url" : "http://gradat.bg/forumgradat/2011/03/07/1054263_ustoichivite_gradove_generirat_prosperirashti/"
-      },
-      "UrbanPlanningProjects" : {
-        "description" : "Разходете се от Борисовата градина, през Орлов мост, покрай паметника на руската армия. Оттам лесно можете да прескочите към площада на Народното събрание, от него - към Народната библиотека и Докторската градина или в обратната посока - към катедрала \"Свети Александър Невски\", зад Военния клуб или надолу по ул. \"Раковски\" до градинката на \"Кристал\" и после към площад \"Славейков\" и ул. \"Граф Игнатиев\".",
-        "edition" : "в. Строителство градът, 04.07.2011",
-        "orderId" : 3,
-        "section" : "planning",
-        "title" : "Градовете протягат ръце към няколко европейски милиона за нови проекти",
-        "url" : "http://gradat.bg/news/2011/07/04/1117155_gradovete_protiagat_ruce_kum_niakolko_evropeiski/"
-      },
-      "UrbanPublicSpace" : {
-        "description" : "Градските обществени пространства са всички видове отворени пространства за общо ползване в съчетание с облика на обкръжаващите ги сгради. Това са булеварди, улици, площади, паркове, вътрешноквартални пространства, пешеходни зони, зони за спорт и отдих, подземни пространства - подлези, метро, предгарови площади и др.",
-        "edition" : "в. Строителство градът, 07.07.2014",
-        "orderId" : 1,
-        "section" : "planning",
-        "title" : "Градските обществени пространства - за хората и от хората",
-        "url" : "http://gradat.bg/proekti_i_stanovishta/2014/07/07/2338459_gradskite_obshtestveni_prostranstva_-_za_horata_i_ot/"
-      }
-    },
-    "regeneration" : {
-      "NewYorkOculus" : {
-        "description" : "На 3 март 2016 г. в 15 ч. местно време на \"Кота нула\" в сърцето на Световния търговски център, където преди 11 септември 2001 г. се издигаха кулите близнаци, след 10 години строителство отвори врати Новият транспортен възел (хъб), дело на арх. Сантяго Калатрава.",
-        "edition" : "сп. Градът, 09.11.2015",
-        "orderId" : 2,
-        "section" : "regeneration",
-        "title" : "Ню Йорк: Oculus излита",
-        "url" : "http://infrastructure.bg/show.php?storyid=2823707"
-      },
-      "TobaccoWarehouses" : {
-        "description" : "В Европа и по света съществуват различни подходи за провеждане на урбанистичните политики на национално и местно ниво. Такъв подход е регенерацията (Urban Regeneration; Urban Renewal; градско обновяване) – една комплексна визия за градско възстановяване и развитие, подкрепена с конкретни дейности, насочени към промяна на условията в жизнената среда за постигане на определени икономически и социални цели.",
-        "edition" : "сп. Градът, 10.01.2017",
-        "orderId" : 1,
-        "section" : "regeneration",
-        "title" : "Днешният ден на емблематични тютюневи складове по света",
-        "url" : "http://gradat.bg/news/2017/01/10/2894758_dneshniiat_den_na_emblematichni_tjutjunevi_skladove_po/"
-      }
-    }
-  },
-  "regeneration" : {
-    "regeneration" : {
-      "testRegeneration" : {
-        "title" : "Test Regeneration Regeneration",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
-    }
-  },
-  "trainings" : {
-    "community" : {
-      "testTraining" : {
-        "title" : "Test Training",
-        "url" : "https://firebasestorage.googleapis.com/v0/b/belin-test.appspot.com/o/projects%2Fdevelopment%2FIpgvrPlovdiv.jpg?alt=media&token=e5c406b5-6ae4-4b43-a680-3678a0c3d662"
-      }
-    }
-  }
 }

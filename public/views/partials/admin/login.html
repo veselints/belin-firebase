@@ -1,0 +1,24 @@
+<div>
+    <div ng-hide="vm.authenticated">
+        <div class="admin-form-element">
+            <label for="title">Въведете username</label>
+            <input type="text" name="username" ng-model="vm.authEmail" required>
+        </div>
+        <div class="admin-form-element">
+            <label for="title">Въведете парола</label>
+            <input type="password" name="username" ng-model="vm.authPass" required>
+        </div>
+        <div class="admin-form-element">
+            <input type="button" value="Влез в профила" ng-click="vm.onAuthenticate()">
+        </div>
+    </div>
+    <div class="admin-form-element" ng-show="vm.authenticated">
+        <input type="button" value="Излез от профила" ng-click="vm.onSignOut()">
+    </div>
+    <div class="admin-form-element" ng-show="vm.authenticated">
+        <a class="admin-button" href="#/admin/create">Покажи формата за създаване на обект</a>
+        <a class="admin-button" href="#/admin/update">Покажи формата за коригиране на обект</a>
+        <a class="admin-button" href="#/admin/painting-category">Покажи формата за добавяне на нова категория картини</a>
+        <a class="admin-button" href="#/admin/indexing">Покажи формата за индексиране на файлове</a>
+    </div>
+</div>

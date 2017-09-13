@@ -1,0 +1,13 @@
+<form class="paintings-create-section" name="form">
+    <div class="admin-form-element">
+        <label for="paintingsKey">Задайте нов ключ за раздел в "Картини"</label>
+        <input name="paintingsKey" type="text" ng-model="vm.model.key" ng-required="true" ng-minlength="3" ng-trim="true">
+    </div>
+    <div class="admin-form-element">
+        <label for="paintingsName">Задайте нови име за раздел в "Картини"</label>
+        <input name="paintingsName" type="text" ng-model="vm.model.name" ng-required="true" ng-minlength="3" ng-trim="true">
+    </div>
+    <div class="admin-form-element">
+        <input type="button" value="Запази новата категория" ng-click="vm.saveNewPaintingsSection()">
+    </div>
+</form>

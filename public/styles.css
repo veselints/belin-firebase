@@ -457,10 +457,23 @@ h2 {
 }
 
 /* Styling admin form */
+.admin-button {
+    display: block;
+    width: 600px;
+    height: 30px;
+    background-color: #EEE;
+    border: 1px solid #BBB;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.admin-button:hover {
+    background-color: #FEFEFE;
+}
 
 .admin-form-element {
     font-size: 1.5em;
-    padding: 1em;
+    margin: 2%;
 }
 
 .admin-form-element input, 
@@ -480,4 +493,10 @@ h2 {
 
 .admin-form-element select option[disabled] {
     color: #EEE;
+}
+
+.document-section {
+    font-size: 0.75em;
+    border: 0.5px solid #DDD;
+    margin: 2% 50% 2% 2%;
 }
