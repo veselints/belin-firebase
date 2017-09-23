@@ -500,3 +500,23 @@ h2 {
     border: 0.5px solid #DDD;
     margin: 2% 50% 2% 2%;
 }
+
+.edit-image {
+    display: inline-block;
+    margin: 0 auto;
+    height: 150px;
+    width: 250px;
+}
+
+.edit-image img {
+    height: auto;
+    width: auto;
+    max-height: 148px;
+    max-width: 248px;
+    margin: auto;
+    display: block;
+}
+
+.admin-edit-title {
+    display: inline-block;
+}

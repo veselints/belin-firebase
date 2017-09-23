@@ -45,3 +45,20 @@
    }
    
    console.log(JSON.stringify(result));
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+   var result = {};
+    
+    for (var i = 0; i < list.length; i ++) {
+      var fileName = list[i];
+      var name = fileName.slice(0, -4);
+      
+      var newObject = {
+        fileName: fileName,
+        title: name
+      };
+      
+      result[name] = newObject;
+    }
+    
+    console.log(JSON.stringify(result));

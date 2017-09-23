@@ -23,7 +23,10 @@
         <input type="button" value="Намерете обекти" ng-click="vm.searchItems()">
     </div>
     <div ng-show="vm.showListOfItemsToEdit" ng-repeat="object in vm.selectedArrayForEdit" class="admin-form-element">
-        <h3>{{object.title}}</h3>
+        <div class="edit-image" ng-show="object.url">
+            <img ng-src="{{object.url}}" class="admin-edit-image">
+        </div>
+        <h3 class="admin-edit-title">{{object.title}}</h3>
         <input type="button" value="Коригирайте този обект" ng-click="vm.editCurrent($index)">
     </div>
     <div ng-show="vm.selectedForEditing">
